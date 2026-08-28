@@ -1,0 +1,9 @@
+.DS_Store
+.vendor/
+scripts/
+*.py
+*.restored
+__pycache__/
+*.pdf
+_dbg_*
+_page2_*
