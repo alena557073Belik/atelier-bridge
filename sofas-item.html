@@ -92,7 +92,7 @@
       thumbs.querySelectorAll("button").forEach((b) => b.classList.toggle("is-active", b === btn));
     }
 
-    fetch("assets/sofas/products.json?v=sfmq03")
+    fetch("assets/sofas/products.json?v=sfmq04")
       .then((r) => r.json())
       .then((products) => {
         const p = (slug && products.find((x) => x.slug === slug)) || products[0];
