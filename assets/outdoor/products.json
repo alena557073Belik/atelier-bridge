@@ -1,4728 +1,712 @@
 [
   {
-    "id": 1,
-    "slug": "my-sofa-001",
-    "title": "MY Sofa-001",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "id": 21,
+    "slug": "ot-od-gs-hm-101",
+    "title": "Cast",
+    "short": "Геометричный алюминиевый lounge с широкими линиями и мягкими светлыми подушками. Кресла, диван, шезлонг и столы собирают террасу в спокойный архитектурный ансамбль.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-001"
+      "Lounge Chair",
+      "Swivel Lounge Chair",
+      "Sofa",
+      "Chaise Lounge",
+      "Ottoman",
+      "Coffee Table",
+      "Side Table",
+      "Console Table",
+      "Side Chair",
+      "Armchair"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-001/view-01.jpg",
+    "items": [
+      {
+        "name": "Lounge Chair",
+        "code": "OT-OD-GS-HM-101-0001"
+      },
+      {
+        "name": "Swivel Lounge Chair",
+        "code": "OT-OD-GS-HM-101-0002"
+      },
+      {
+        "name": "Sofa",
+        "code": "OT-OD-GS-HM-101-0003"
+      },
+      {
+        "name": "Chaise Lounge",
+        "code": "OT-OD-GS-HM-101-0004"
+      },
+      {
+        "name": "Ottoman",
+        "code": "OT-OD-GS-HM-101-0005"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "OT-OD-GS-HM-101-0006"
+      },
+      {
+        "name": "Side Table",
+        "code": "OT-OD-GS-HM-101-0007"
+      },
+      {
+        "name": "Console Table",
+        "code": "OT-OD-GS-HM-101-0008"
+      },
+      {
+        "name": "Side Chair",
+        "code": "OT-OD-GS-HM-101-0009"
+      },
+      {
+        "name": "Armchair",
+        "code": "OT-OD-GS-HM-101-0010"
+      }
+    ],
+    "cover": "assets/outdoor/collections/ot-od-gs-hm-101/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-001/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-001/view-08.jpg"
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-01-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-02-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-03-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-04-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-05-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-06-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-07-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-08-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-09-zoom.jpg?v=castgal05",
+      "assets/outdoor/collections/ot-od-gs-hm-101/item-10-zoom.jpg?v=castgal05"
     ],
-    "page": 2
+    "galleryFit": "contain",
+    "page": 1
+  },
+  {
+    "id": 1,
+    "slug": "mona-p-kd-s0449",
+    "title": "Ambra",
+    "short": "Тёплый терракотовый роуп и мягкие кремовые подушки — комплект, в котором хочется остаться до самого вечера. Два кресла, диван и стол собирают террасу у бассейна в спокойный домашний круг.",
+    "material": "Алюминий / текстиль",
+    "models": [
+      "P-KD-S0449SA",
+      "P-KD-S0449TA",
+      "P-KD-S0449CT"
+    ],
+    "items": [
+      {
+        "name": "Club Chair",
+        "code": "P-KD-S0449SA"
+      },
+      {
+        "name": "Sofa",
+        "code": "P-KD-S0449TA"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "P-KD-S0449CT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/mona-p-kd-s0449/hero.jpg?v=odhero01",
+    "gallery": [
+      "assets/outdoor/collections/mona-p-kd-s0449/item-01-zoom.jpg?v=ambragal01",
+      "assets/outdoor/collections/mona-p-kd-s0449/item-02-zoom.jpg?v=ambragal01",
+      "assets/outdoor/collections/mona-p-kd-s0449/item-03-zoom.jpg?v=ambragal01"
+    ],
+    "galleryFit": "contain",
+    "page": 1
   },
   {
     "id": 2,
-    "slug": "my-sofa-002",
-    "title": "MY Sofa-002",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "outdoor-p19",
+    "title": "Lido",
+    "short": "Обеденная зона с видом на горизонт: лаконичный стол и кресла, которые держат ритм морского пейзажа. Здесь разговоры длятся дольше — без лишнего декора и без суеты.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-002"
+      "Armchair",
+      "Dining Table"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-002/view-01.jpg",
+    "items": [
+      {
+        "name": "Armchair"
+      },
+      {
+        "name": "Dining Table"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-p19/hero.jpg?v=odhero03",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-002/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-002/view-11.jpg"
+      "assets/outdoor/collections/outdoor-p19/item-01-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/outdoor-p19/item-02-zoom.jpg?v=ord03"
     ],
-    "page": 2
+    "page": 19,
+    "galleryFit": "contain"
   },
   {
     "id": 3,
-    "slug": "my-sofa-003",
-    "title": "MY Sofa-003",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "havana-p-fp0463",
+    "title": "Palma",
+    "short": "Тёмный силуэт и светлые подушки — обеденный комплект с настроением курортного двора. Стол и стулья создают место, куда хочется звать близких и не спешить.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-003"
+      "P-FP0463SM",
+      "P-KD-FP0463DT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-003/view-01.jpg",
+    "items": [
+      {
+        "name": "Armless Chair",
+        "code": "P-FP0463SM"
+      },
+      {
+        "name": "Dining Table",
+        "code": "P-KD-FP0463DT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/havana-p-fp0463/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-003/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-11.jpg",
-      "assets/outdoor/collections/my-sofa-003/view-12.jpg"
+      "assets/outdoor/collections/havana-p-fp0463/item-01-zoom.jpg?v=q_fp0463_28890",
+      "assets/outdoor/collections/havana-p-fp0463/item-02-zoom.jpg?v=q_fp0463_28890"
     ],
-    "page": 3
+    "page": 22,
+    "galleryFit": "contain"
   },
   {
     "id": 4,
-    "slug": "my-sofa-004",
-    "title": "MY Sofa-004",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "frida-p-fp0464",
+    "title": "Vela",
+    "short": "Лёгкий роуп на тёмном каркасе — обеденная группа, которая дышит вместе с ветром у воды. Строгие линии и мягкая посадка делают каждый ужин спокойнее и собраннее.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-004"
+      "P-FP0464SA",
+      "P-FP0464DT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-004/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-004/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-004/view-11.jpg"
+    "items": [
+      {
+        "name": "Armless Chair",
+        "code": "P-FP0464SA"
+      },
+      {
+        "name": "Dining Table",
+        "code": "P-FP0464DT"
+      }
     ],
-    "page": 3
+    "cover": "assets/outdoor/collections/frida-p-fp0464/hero.jpg?v=odhero01",
+    "gallery": [],
+    "page": 23,
+    "galleryFit": "contain"
   },
   {
     "id": 5,
-    "slug": "my-sofa-005",
-    "title": "MY Sofa-005",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "cabo-p-kd-s0278",
+    "title": "Lago",
+    "short": "Шезлонг, пуф и стол для тех, кто выбирает тишину у отражающей воды. Комплект задаёт медленный ритм дня — от утреннего кофе до полуденного отдыха.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-005"
+      "P-KD-S0278SA",
+      "S0262CT",
+      "P-KD-S0278FT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-005/view-01.jpg",
+    "items": [
+      {
+        "name": "Lounger Chair",
+        "code": "P-KD-S0278SA"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "S0262CT"
+      },
+      {
+        "name": "Ottoman",
+        "code": "P-KD-S0278FT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/cabo-p-kd-s0278/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-005/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-005/view-08.jpg"
+      "assets/outdoor/collections/cabo-p-kd-s0278/item-01-zoom.jpg?v=q_s0278_29040",
+      "assets/outdoor/collections/cabo-p-kd-s0278/item-02-zoom.jpg?v=q_s0278_29040",
+      "assets/outdoor/collections/cabo-p-kd-s0278/item-03-zoom.jpg?v=q_s0278_29040"
     ],
-    "page": 4
+    "page": 48,
+    "galleryFit": "contain"
   },
   {
     "id": 6,
-    "slug": "my-sofa-006",
-    "title": "MY Sofa-006",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "villa-p-s0287",
+    "title": "Alba",
+    "short": "Светлый модульный lounge, который легко собрать под вашу террасу. Мягкие блоки и низкий стол создают открытое, воздушное пространство без ощущения тяжести.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-006"
+      "P-S0287SM",
+      "P-S0287CS",
+      "P-S0287DL",
+      "P-S0287DR",
+      "P-S0287CT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-006/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-006/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-006/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-006/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-006/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-006/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-006/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-006/view-07.jpg"
+    "items": [
+      {
+        "name": "Armless Chair",
+        "code": "P-S0287SM"
+      },
+      {
+        "name": "Corner Chair",
+        "code": "P-S0287CS"
+      },
+      {
+        "name": "Left Arm Chair",
+        "code": "P-S0287DL"
+      },
+      {
+        "name": "Right Arm Chair",
+        "code": "P-S0287DR"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "P-S0287CT"
+      }
     ],
-    "page": 5
+    "cover": "assets/outdoor/collections/villa-p-s0287/hero.jpg?v=odhero01",
+    "gallery": [],
+    "page": 49,
+    "galleryFit": "contain"
   },
   {
     "id": 7,
-    "slug": "my-sofa-007",
-    "title": "MY Sofa-007",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "cove-p-s0365",
+    "title": "Bahia",
+    "short": "Низкий секционный диван в тени пальм — архитектура отдыха, а не просто мебель. Широкие линии и глубокая посадка приглашают растянуть вечер на террасе.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-007"
+      "P-S0365SM",
+      "P-S0365CS",
+      "P-S0365DL",
+      "P-S0365DR",
+      "P-CP1356CT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-007/view-01.jpg",
+    "items": [
+      {
+        "name": "Armless Chair",
+        "code": "P-S0365SM"
+      },
+      {
+        "name": "Corner Chair",
+        "code": "P-S0365CS"
+      },
+      {
+        "name": "Left Arm Chair",
+        "code": "P-S0365DL"
+      },
+      {
+        "name": "Right Arm Chair",
+        "code": "P-S0365DR"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "P-CP1356CT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/cove-p-s0365/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-007/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-11.jpg",
-      "assets/outdoor/collections/my-sofa-007/view-12.jpg"
+      "assets/outdoor/collections/cove-p-s0365/item-01-zoom.jpg?v=q_s0365_29235",
+      "assets/outdoor/collections/cove-p-s0365/item-02-zoom.jpg?v=q_s0365_29235",
+      "assets/outdoor/collections/cove-p-s0365/item-04-zoom.jpg?v=q_s0365_29235"
     ],
-    "page": 5
-  },
-  {
-    "id": 8,
-    "slug": "my-sofa-008",
-    "title": "MY Sofa-008",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-008"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-008/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-008/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-008/view-09.jpg"
-    ],
-    "page": 6
+    "page": 50,
+    "galleryFit": "contain"
   },
   {
     "id": 9,
-    "slug": "my-sofa-009",
-    "title": "MY Sofa-009",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "palmersron-p-s0311",
+    "title": "Brume",
+    "short": "Сланцево-синие подушки и плетёные спинки — lounge для террасы с видом на воду. Кресла, диван и стол звучат тихо, оставляя главный голос пейзажу.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-009"
+      "P-S0311SA",
+      "P-S0311CT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-009/view-01.jpg",
+    "items": [
+      {
+        "name": "Club Chair",
+        "code": "P-S0311SA"
+      },
+      {
+        "name": "Sofa",
+        "code": "P-S0311SA"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "P-S0311CT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/palmersron-p-s0311/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-009/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-009/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-009/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-009/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-009/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-009/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-009/view-07.jpg"
+      "assets/outdoor/collections/palmersron-p-s0311/item-01-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/palmersron-p-s0311/item-02-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/palmersron-p-s0311/item-03-zoom.jpg?v=ord03"
     ],
-    "page": 6
+    "page": 67,
+    "galleryFit": "contain"
   },
   {
     "id": 10,
-    "slug": "my-sofa-010",
-    "title": "MY Sofa-010",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "palmersron-p-s0311-p68",
+    "title": "Faro",
+    "short": "Круг у огня: кресла и качалка вокруг очага, где вечер становится ритуалом. Комплект для разговоров, тепла и долгого наблюдения за пламенем.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-010"
+      "P-S0311SA",
+      "P-S0311SG",
+      "P-S0311FP"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-010/view-01.jpg",
+    "items": [
+      {
+        "name": "Club Chair",
+        "code": "P-S0311SA"
+      },
+      {
+        "name": "Swivel Glider",
+        "code": "P-S0311SG"
+      },
+      {
+        "name": "Fire Pit",
+        "code": "P-S0311FP"
+      }
+    ],
+    "cover": "assets/outdoor/collections/palmersron-p-s0311-p68/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-010/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-010/view-11.jpg"
+      "assets/outdoor/collections/palmersron-p-s0311-p68/item-01-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/palmersron-p-s0311-p68/item-02-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/palmersron-p-s0311-p68/item-03-zoom.jpg?v=ord03"
     ],
-    "page": 7
+    "page": 68,
+    "galleryFit": "contain"
   },
   {
     "id": 11,
-    "slug": "my-sofa-011",
-    "title": "MY Sofa-011",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "outdoor-p34",
+    "title": "Bay",
+    "short": "Вертикальный роуп и глубокие подушки — lounge над бесконечной водой. Комплект будто продолжает линию бассейна и удерживает ощущение простора.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-011"
+      "Armchair",
+      "Sofa",
+      "Coffee Table"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-011/view-01.jpg",
+    "items": [
+      {
+        "name": "Armchair"
+      },
+      {
+        "name": "Sofa"
+      },
+      {
+        "name": "Coffee Table"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-p34/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-011/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-011/view-08.jpg"
+      "assets/outdoor/collections/outdoor-p34/item-01-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/outdoor-p34/item-02-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/outdoor-p34/item-03-zoom.jpg?v=ord03"
     ],
-    "page": 8
+    "page": 34,
+    "galleryFit": "contain"
   },
   {
     "id": 12,
-    "slug": "my-sofa-012",
-    "title": "MY Sofa-012",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "outdoor-p35",
+    "title": "Pietra",
+    "short": "Геометрия тёмного каркаса на фоне каменной виллы — сила в спокойных пропорциях. Кресла, диван и стол собирают террасу в цельный архитектурный жест.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-012"
+      "Armchair",
+      "Sofa",
+      "Coffee Table"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-012/view-01.jpg",
+    "items": [
+      {
+        "name": "Armchair"
+      },
+      {
+        "name": "Sofa"
+      },
+      {
+        "name": "Coffee Table"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-p35/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-012/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-012/view-08.jpg"
+      "assets/outdoor/collections/outdoor-p35/item-01-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/outdoor-p35/item-02-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/outdoor-p35/item-03-zoom.jpg?v=ord03"
     ],
-    "page": 8
+    "page": 35,
+    "galleryFit": "contain"
+  },
+  {
+    "id": 12,
+    "slug": "cove-sectional-p51",
+    "title": "Delta",
+    "short": "Модульный диван у спокойной воды — плавные линии и открытая посадка. Секции собираются под террасу, оставляя главный кадр пейзажу.",
+    "material": "Алюминий / текстиль",
+    "models": [
+      "P-S0365SM",
+      "P-S0365CS",
+      "P-S0365DL",
+      "P-S0365DR",
+      "P-CP1356CT"
+    ],
+    "items": [
+      {
+        "name": "Armless Chair",
+        "code": "P-S0365SM"
+      },
+      {
+        "name": "Corner Chair",
+        "code": "P-S0365CS"
+      },
+      {
+        "name": "Left Arm Chair",
+        "code": "P-S0365DL"
+      },
+      {
+        "name": "Right Arm Chair",
+        "code": "P-S0365DR"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "P-CP1356CT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/cove-sectional-p51/hero.jpg?v=odhero01",
+    "gallery": [],
+    "page": 51,
+    "galleryFit": "contain"
   },
   {
     "id": 13,
-    "slug": "my-sofa-013",
-    "title": "MY Sofa-013",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "capri-p-s0445",
+    "title": "Nido",
+    "short": "Кресла-колыбели и лёгкий стол — мягкое гнездо у бассейна. Форма обнимает, плетёный силуэт успокаивает, а движение качалки замедляет день.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-013"
+      "P-S0445CT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-013/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-013/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-013/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-013/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-013/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-013/view-05.jpg"
+    "items": [
+      {
+        "name": "Coffee Table",
+        "code": "P-S0445CT"
+      }
     ],
-    "page": 9
+    "cover": "assets/outdoor/collections/capri-p-s0445/hero.jpg?v=odhero01",
+    "gallery": [],
+    "page": 20,
+    "galleryFit": "contain"
   },
   {
     "id": 14,
-    "slug": "my-sofa-014",
-    "title": "MY Sofa-014",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "outdoor-ml1-p7",
+    "title": "Aura",
+    "short": "Открытое плетение и округлые спинки — lounge, который ощущается как кокон. Кресла и диваны создают приватный круг на террасе, где легко выдохнуть.",
+    "material": "Ротанг / текстиль / металл",
     "models": [
-      "MY Sofa-014"
+      "Lounge Chair",
+      "Lounge Set",
+      "Sofa Lounge"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-014/view-01.jpg",
+    "items": [
+      {
+        "name": "Lounge Chair"
+      },
+      {
+        "name": "Lounge Set"
+      },
+      {
+        "name": "Sofa Lounge"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-ml1-p7/hero.jpg?v=odhero04",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-014/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-014/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-014/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-014/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-014/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-014/view-06.jpg"
+      "assets/outdoor/collections/outdoor-ml1-p7/item-02-zoom.jpg?v=q_p7_29366",
+      "assets/outdoor/collections/outdoor-ml1-p7/item-03-zoom.jpg?v=q_p7_29366"
     ],
-    "page": 9
+    "galleryFit": "contain",
+    "page": 7
   },
   {
     "id": 15,
-    "slug": "my-sofa-015",
-    "title": "MY Sofa-015",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "outdoor-l19l",
+    "title": "Cala",
+    "short": "Тонкий роуп и взгляд на море — коллекция для террасы, где тишина становится частью интерьера. От обеденного стола до мягких кресел всё собрано в одном дыхании.",
+    "material": "Роуп / текстиль / металл",
     "models": [
-      "MY Sofa-015"
+      "Dining Set",
+      "Armchair",
+      "Loveseat",
+      "Sofa"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-015/view-01.jpg",
+    "items": [
+      {
+        "name": "Dining Set"
+      },
+      {
+        "name": "Armchair"
+      },
+      {
+        "name": "Loveseat"
+      },
+      {
+        "name": "Sofa"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-l19l/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-015/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-015/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-015/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-015/view-04.jpg"
+      "assets/outdoor/collections/outdoor-l19l/item-01-zoom.jpg?v=cala_hero_97224",
+      "assets/outdoor/collections/outdoor-l19l/item-02-zoom.jpg?v=cala_hero_97224",
+      "assets/outdoor/collections/outdoor-l19l/item-03-zoom.jpg?v=cala_hero_97224",
+      "assets/outdoor/collections/outdoor-l19l/item-04-zoom.jpg?v=cala_hero_97224"
     ],
-    "page": 10
-  },
-  {
-    "id": 16,
-    "slug": "my-sofa-016",
-    "title": "MY Sofa-016",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-016"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-016/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-016/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-016/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-016/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-016/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-016/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-016/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-016/view-07.jpg"
-    ],
-    "page": 10
-  },
-  {
-    "id": 17,
-    "slug": "my-sofa-017",
-    "title": "MY Sofa-017",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-017"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-017/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-017/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-017/view-11.jpg"
-    ],
-    "page": 11
-  },
-  {
-    "id": 18,
-    "slug": "my-sofa-018",
-    "title": "MY Sofa-018",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-018"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-018/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-018/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-11.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-12.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-13.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-14.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-15.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-16.jpg",
-      "assets/outdoor/collections/my-sofa-018/view-17.jpg"
-    ],
-    "page": 12
-  },
-  {
-    "id": 19,
-    "slug": "my-sofa-019",
-    "title": "MY Sofa-019",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-019"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-019/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-019/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-019/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-019/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-019/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-019/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-019/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-019/view-07.jpg"
-    ],
-    "page": 13
+    "galleryFit": "contain",
+    "page": 14
   },
   {
     "id": 20,
-    "slug": "my-sofa-020",
-    "title": "MY Sofa-020",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "slug": "outdoor-l20l",
+    "title": "Halo",
+    "short": "Круглый стол и верёвочные кресла — камерный обед в мягком кольце света. Комплект держит близкий круг без лишней торжественности.",
+    "material": "Роуп / текстиль / металл",
     "models": [
-      "MY Sofa-020"
+      "Dining Set"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-020/view-01.jpg",
+    "items": [
+      {
+        "name": "Dining Set"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-l20l/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-020/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-020/view-08.jpg"
+      "assets/outdoor/collections/outdoor-l20l/item-01-zoom.jpg?v=namesfix_96751"
     ],
-    "page": 13
-  },
-  {
-    "id": 21,
-    "slug": "my-sofa-021",
-    "title": "MY Sofa-021",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-021"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-021/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-021/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-021/view-09.jpg"
-    ],
+    "galleryFit": "contain",
     "page": 14
   },
   {
-    "id": 22,
-    "slug": "my-sofa-022",
-    "title": "MY Sofa-022",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "id": 4,
+    "slug": "kaari-p-kd-fp0470",
+    "title": "Cena",
+    "short": "Спокойный общий стол и кресла с мягкой дугой — обеденная группа для долгих вечеров. Линии тихие, посадка располагает остаться.",
+    "material": "Алюминий / текстиль",
     "models": [
-      "MY Sofa-022"
+      "P-FP0470SA",
+      "P-KD-FP0470DT"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-022/view-01.jpg",
+    "items": [
+      {
+        "name": "Armchair",
+        "code": "P-FP0470SA"
+      },
+      {
+        "name": "Dining Table",
+        "code": "P-KD-FP0470DT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/kaari-p-kd-fp0470/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-022/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-022/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-022/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-022/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-022/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-022/view-06.jpg"
+      "assets/outdoor/collections/kaari-p-kd-fp0470/item-01-zoom.jpg?v=namesfix_96751",
+      "assets/outdoor/collections/kaari-p-kd-fp0470/item-02-zoom.jpg?v=namesfix_96751"
     ],
+    "galleryFit": "contain",
+    "page": 15
+  },
+  {
+    "id": 5,
+    "slug": "tyler-p-s0466",
+    "title": "Solace",
+    "short": "Глубокое тихое сиденье: кресла, диван и низкий стол для террасы, где день замедляется. Форма обнимает, свет и ткань смягчают вечер.",
+    "material": "Алюминий / текстиль",
+    "models": [
+      "P-S0466SA",
+      "P-S0466GS",
+      "P-S0466TA",
+      "P-KD-S0466CT"
+    ],
+    "items": [
+      {
+        "name": "Club Chair",
+        "code": "P-S0466SA"
+      },
+      {
+        "name": "Swivel Chair",
+        "code": "P-S0466GS"
+      },
+      {
+        "name": "Sofa",
+        "code": "P-S0466TA"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "P-KD-S0466CT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/tyler-p-s0466/hero.jpg?v=odhero01",
+    "gallery": [
+      "assets/outdoor/collections/tyler-p-s0466/item-01-zoom.jpg?v=namesfix_96751",
+      "assets/outdoor/collections/tyler-p-s0466/item-02-zoom.jpg?v=namesfix_96751",
+      "assets/outdoor/collections/tyler-p-s0466/item-03-zoom.jpg?v=namesfix_96751"
+    ],
+    "page": 16,
+    "galleryFit": "contain"
+  },
+  {
+    "id": 18,
+    "slug": "kaari-p-s0462",
+    "title": "Luna",
+    "short": "Мягкая дуга спинки и тёплый роуп — lounge с тихим светом луны в названии. Кресла, диван и каменный стол держат спокойный, почти медитативный тон.",
+    "material": "Алюминий / текстиль",
+    "models": [
+      "P-S0462SA",
+      "P-S0462TA",
+      "S0392CT"
+    ],
+    "items": [
+      {
+        "name": "Club Chair",
+        "code": "P-S0462SA"
+      },
+      {
+        "name": "Sofa",
+        "code": "P-S0462TA"
+      },
+      {
+        "name": "Coffee Table",
+        "code": "S0392CT"
+      }
+    ],
+    "cover": "assets/outdoor/collections/kaari-p-s0462/hero.jpg?v=odhero01",
+    "gallery": [
+      "assets/outdoor/collections/kaari-p-s0462/item-01-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/kaari-p-s0462/item-02-zoom.jpg?v=ord03",
+      "assets/outdoor/collections/kaari-p-s0462/item-03-zoom.jpg?v=ord03"
+    ],
+    "galleryFit": "contain",
     "page": 14
   },
   {
-    "id": 23,
-    "slug": "my-sofa-023",
-    "title": "MY Sofa-023",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
+    "id": 17,
+    "slug": "outdoor-l50l",
+    "title": "Grove",
+    "short": "Плетёные кашпо, столики и пуфы — акценты сада, которые собирают террасу в живой ансамбль. Малые формы с большим настроением двора.",
+    "material": "Роуп / ротанг / металл",
     "models": [
-      "MY Sofa-023"
+      "Ottomans",
+      "Planters"
     ],
-    "cover": "assets/outdoor/collections/my-sofa-023/view-01.jpg",
+    "items": [
+      {
+        "name": "Ottomans"
+      },
+      {
+        "name": "Planters"
+      }
+    ],
+    "cover": "assets/outdoor/collections/outdoor-l50l/hero.jpg?v=odhero01",
     "gallery": [
-      "assets/outdoor/collections/my-sofa-023/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-023/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-023/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-023/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-023/view-05.jpg"
+      "assets/outdoor/collections/outdoor-l50l/item-01-zoom.jpg?v=namesfix_96751",
+      "assets/outdoor/collections/outdoor-l50l/item-02-zoom.jpg?v=namesfix_96751"
     ],
-    "page": 15
-  },
-  {
-    "id": 24,
-    "slug": "my-sofa-024",
-    "title": "MY Sofa-024",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-024"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-024/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-024/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-11.jpg",
-      "assets/outdoor/collections/my-sofa-024/view-12.jpg"
-    ],
-    "page": 15
-  },
-  {
-    "id": 25,
-    "slug": "my-sofa-025",
-    "title": "MY Sofa-025",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-025"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-025/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-025/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-025/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-025/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-025/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-025/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-025/view-06.jpg"
-    ],
-    "page": 16
-  },
-  {
-    "id": 26,
-    "slug": "my-sofa-026",
-    "title": "MY Sofa-026",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-026"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-026/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-026/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-026/view-08.jpg"
-    ],
-    "page": 16
-  },
-  {
-    "id": 27,
-    "slug": "my-sofa-027",
-    "title": "MY Sofa-027",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-027"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-027/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-027/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-027/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-027/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-027/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-027/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-027/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-027/view-07.jpg"
-    ],
-    "page": 17
-  },
-  {
-    "id": 28,
-    "slug": "my-sofa-028",
-    "title": "MY Sofa-028",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-028"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-028/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-028/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-028/view-09.jpg"
-    ],
-    "page": 17
-  },
-  {
-    "id": 29,
-    "slug": "my-sofa-029",
-    "title": "MY Sofa-029",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-029"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-029/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-029/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-029/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-029/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-029/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-029/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-029/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-029/view-07.jpg"
-    ],
-    "page": 18
-  },
-  {
-    "id": 30,
-    "slug": "my-sofa-030",
-    "title": "MY Sofa-030",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-030"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-030/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-030/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-030/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-030/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-030/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-030/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-030/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-030/view-07.jpg"
-    ],
-    "page": 19
-  },
-  {
-    "id": 31,
-    "slug": "my-sofa-031",
-    "title": "MY Sofa-031",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-031"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-031/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-031/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-031/view-10.jpg"
-    ],
-    "page": 19
-  },
-  {
-    "id": 32,
-    "slug": "my-sofa-032",
-    "title": "MY Sofa-032",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-032"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-032/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-032/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-11.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-12.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-13.jpg",
-      "assets/outdoor/collections/my-sofa-032/view-14.jpg"
-    ],
-    "page": 20
-  },
-  {
-    "id": 33,
-    "slug": "my-sofa-033",
-    "title": "MY Sofa-033",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-033"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-033/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-033/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-033/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-033/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-033/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-033/view-05.jpg"
-    ],
-    "page": 20
-  },
-  {
-    "id": 34,
-    "slug": "my-sofa-034",
-    "title": "MY Sofa-034",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-034"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-034/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-034/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-034/view-08.jpg"
-    ],
-    "page": 21
-  },
-  {
-    "id": 35,
-    "slug": "my-sofa-035",
-    "title": "MY Sofa-035",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-035"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-035/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-035/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-035/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-035/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-035/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-035/view-05.jpg"
-    ],
-    "page": 21
-  },
-  {
-    "id": 36,
-    "slug": "my-sofa-036",
-    "title": "MY Sofa-036",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-036"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-036/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-036/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-036/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-036/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-036/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-036/view-05.jpg"
-    ],
-    "page": 22
-  },
-  {
-    "id": 37,
-    "slug": "my-sofa-037",
-    "title": "MY Sofa-037",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-037"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-037/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-037/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-037/view-08.jpg"
-    ],
-    "page": 23
-  },
-  {
-    "id": 38,
-    "slug": "my-sofa-038",
-    "title": "MY Sofa-038",
-    "short": "Уличный диванный комплект",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY Sofa-038"
-    ],
-    "cover": "assets/outdoor/collections/my-sofa-038/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-038/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-038/view-08.jpg"
-    ],
-    "page": 23
-  },
-  {
-    "id": 39,
-    "slug": "my-sofa-lifestyle",
-    "title": "MY Sofa · Lifestyle",
-    "short": "Дополнительные ракурсы",
-    "material": "Плетение / металл / текстиль",
-    "models": [],
-    "cover": "assets/outdoor/collections/my-sofa-lifestyle/view-13.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-sofa-lifestyle/view-13.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-20.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-21.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-31.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-32.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-02.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-01.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-03.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-14.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-41.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-19.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-38.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-28.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-06.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-17.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-16.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-05.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-04.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-26.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-33.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-29.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-39.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-36.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-35.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-27.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-34.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-40.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-22.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-30.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-24.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-25.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-37.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-18.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-23.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-07.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-15.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-09.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-10.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-08.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-11.jpg",
-      "assets/outdoor/collections/my-sofa-lifestyle/view-12.jpg"
-    ],
+    "galleryFit": "contain",
     "page": 25
-  },
-  {
-    "id": 40,
-    "slug": "my-zy-001",
-    "title": "MY-ZY-001",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-001"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-001/view-17.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-001/view-17.jpg",
-      "assets/outdoor/collections/my-zy-001/view-16.jpg",
-      "assets/outdoor/collections/my-zy-001/view-19.jpg",
-      "assets/outdoor/collections/my-zy-001/view-27.jpg",
-      "assets/outdoor/collections/my-zy-001/view-28.jpg",
-      "assets/outdoor/collections/my-zy-001/view-29.jpg",
-      "assets/outdoor/collections/my-zy-001/view-21.jpg",
-      "assets/outdoor/collections/my-zy-001/view-30.jpg",
-      "assets/outdoor/collections/my-zy-001/view-23.jpg",
-      "assets/outdoor/collections/my-zy-001/view-26.jpg",
-      "assets/outdoor/collections/my-zy-001/view-20.jpg",
-      "assets/outdoor/collections/my-zy-001/view-06.jpg",
-      "assets/outdoor/collections/my-zy-001/view-11.jpg",
-      "assets/outdoor/collections/my-zy-001/view-07.jpg",
-      "assets/outdoor/collections/my-zy-001/view-01.jpg",
-      "assets/outdoor/collections/my-zy-001/view-02.jpg",
-      "assets/outdoor/collections/my-zy-001/view-12.jpg",
-      "assets/outdoor/collections/my-zy-001/view-03.jpg",
-      "assets/outdoor/collections/my-zy-001/view-10.jpg",
-      "assets/outdoor/collections/my-zy-001/view-13.jpg",
-      "assets/outdoor/collections/my-zy-001/view-14.jpg",
-      "assets/outdoor/collections/my-zy-001/view-04.jpg",
-      "assets/outdoor/collections/my-zy-001/view-15.jpg",
-      "assets/outdoor/collections/my-zy-001/view-08.jpg",
-      "assets/outdoor/collections/my-zy-001/view-09.jpg",
-      "assets/outdoor/collections/my-zy-001/view-05.jpg",
-      "assets/outdoor/collections/my-zy-001/view-24.jpg",
-      "assets/outdoor/collections/my-zy-001/view-25.jpg",
-      "assets/outdoor/collections/my-zy-001/view-22.jpg",
-      "assets/outdoor/collections/my-zy-001/view-18.jpg"
-    ],
-    "page": 28
-  },
-  {
-    "id": 41,
-    "slug": "my-zy-002",
-    "title": "MY-ZY-002",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-002"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-002/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-002/view-01.jpg",
-      "assets/outdoor/collections/my-zy-002/view-02.jpg"
-    ],
-    "page": 29
-  },
-  {
-    "id": 42,
-    "slug": "my-zy-003",
-    "title": "MY-ZY-003",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-003"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-003/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-003/view-02.jpg",
-      "assets/outdoor/collections/my-zy-003/view-03.jpg",
-      "assets/outdoor/collections/my-zy-003/view-04.jpg",
-      "assets/outdoor/collections/my-zy-003/view-01.jpg",
-      "assets/outdoor/collections/my-zy-003/view-05.jpg",
-      "assets/outdoor/collections/my-zy-003/view-07.jpg",
-      "assets/outdoor/collections/my-zy-003/view-08.jpg",
-      "assets/outdoor/collections/my-zy-003/view-06.jpg"
-    ],
-    "page": 29
-  },
-  {
-    "id": 43,
-    "slug": "my-zy-004",
-    "title": "MY-ZY-004",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-004"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-004/view-05.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-004/view-05.jpg",
-      "assets/outdoor/collections/my-zy-004/view-09.jpg",
-      "assets/outdoor/collections/my-zy-004/view-10.jpg",
-      "assets/outdoor/collections/my-zy-004/view-07.jpg",
-      "assets/outdoor/collections/my-zy-004/view-02.jpg",
-      "assets/outdoor/collections/my-zy-004/view-08.jpg",
-      "assets/outdoor/collections/my-zy-004/view-03.jpg",
-      "assets/outdoor/collections/my-zy-004/view-01.jpg",
-      "assets/outdoor/collections/my-zy-004/view-04.jpg",
-      "assets/outdoor/collections/my-zy-004/view-11.jpg",
-      "assets/outdoor/collections/my-zy-004/view-06.jpg"
-    ],
-    "page": 29
-  },
-  {
-    "id": 44,
-    "slug": "my-zy-005",
-    "title": "MY-ZY-005",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-005"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-005/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-005/view-01.jpg",
-      "assets/outdoor/collections/my-zy-005/view-03.jpg",
-      "assets/outdoor/collections/my-zy-005/view-02.jpg"
-    ],
-    "page": 30
-  },
-  {
-    "id": 45,
-    "slug": "my-zy-006",
-    "title": "MY-ZY-006",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-006"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-006/view-04.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-006/view-04.jpg",
-      "assets/outdoor/collections/my-zy-006/view-05.jpg",
-      "assets/outdoor/collections/my-zy-006/view-01.jpg",
-      "assets/outdoor/collections/my-zy-006/view-02.jpg",
-      "assets/outdoor/collections/my-zy-006/view-03.jpg",
-      "assets/outdoor/collections/my-zy-006/view-08.jpg",
-      "assets/outdoor/collections/my-zy-006/view-09.jpg",
-      "assets/outdoor/collections/my-zy-006/view-12.jpg",
-      "assets/outdoor/collections/my-zy-006/view-13.jpg",
-      "assets/outdoor/collections/my-zy-006/view-14.jpg",
-      "assets/outdoor/collections/my-zy-006/view-16.jpg",
-      "assets/outdoor/collections/my-zy-006/view-17.jpg",
-      "assets/outdoor/collections/my-zy-006/view-18.jpg",
-      "assets/outdoor/collections/my-zy-006/view-06.jpg",
-      "assets/outdoor/collections/my-zy-006/view-07.jpg",
-      "assets/outdoor/collections/my-zy-006/view-10.jpg",
-      "assets/outdoor/collections/my-zy-006/view-11.jpg",
-      "assets/outdoor/collections/my-zy-006/view-15.jpg"
-    ],
-    "page": 30
-  },
-  {
-    "id": 46,
-    "slug": "my-zy-007",
-    "title": "MY-ZY-007",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-007"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-007/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-007/view-02.jpg",
-      "assets/outdoor/collections/my-zy-007/view-03.jpg",
-      "assets/outdoor/collections/my-zy-007/view-01.jpg"
-    ],
-    "page": 31
-  },
-  {
-    "id": 47,
-    "slug": "my-zy-008",
-    "title": "MY-ZY-008",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-008"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-008/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-008/view-02.jpg",
-      "assets/outdoor/collections/my-zy-008/view-01.jpg",
-      "assets/outdoor/collections/my-zy-008/view-03.jpg",
-      "assets/outdoor/collections/my-zy-008/view-04.jpg",
-      "assets/outdoor/collections/my-zy-008/view-05.jpg",
-      "assets/outdoor/collections/my-zy-008/view-07.jpg",
-      "assets/outdoor/collections/my-zy-008/view-06.jpg",
-      "assets/outdoor/collections/my-zy-008/view-10.jpg",
-      "assets/outdoor/collections/my-zy-008/view-09.jpg",
-      "assets/outdoor/collections/my-zy-008/view-08.jpg"
-    ],
-    "page": 31
-  },
-  {
-    "id": 48,
-    "slug": "my-zy-009",
-    "title": "MY-ZY-009",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-009"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-009/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-009/view-01.jpg",
-      "assets/outdoor/collections/my-zy-009/view-03.jpg",
-      "assets/outdoor/collections/my-zy-009/view-02.jpg",
-      "assets/outdoor/collections/my-zy-009/view-06.jpg",
-      "assets/outdoor/collections/my-zy-009/view-05.jpg",
-      "assets/outdoor/collections/my-zy-009/view-04.jpg"
-    ],
-    "page": 31
-  },
-  {
-    "id": 49,
-    "slug": "my-zy-010",
-    "title": "MY-ZY-010",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-010"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-010/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-010/view-01.jpg",
-      "assets/outdoor/collections/my-zy-010/view-02.jpg",
-      "assets/outdoor/collections/my-zy-010/view-06.jpg",
-      "assets/outdoor/collections/my-zy-010/view-03.jpg",
-      "assets/outdoor/collections/my-zy-010/view-04.jpg",
-      "assets/outdoor/collections/my-zy-010/view-05.jpg"
-    ],
-    "page": 32
-  },
-  {
-    "id": 50,
-    "slug": "my-zy-011",
-    "title": "MY-ZY-011",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-011"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-011/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-011/view-02.jpg",
-      "assets/outdoor/collections/my-zy-011/view-05.jpg",
-      "assets/outdoor/collections/my-zy-011/view-01.jpg",
-      "assets/outdoor/collections/my-zy-011/view-04.jpg",
-      "assets/outdoor/collections/my-zy-011/view-03.jpg",
-      "assets/outdoor/collections/my-zy-011/view-06.jpg"
-    ],
-    "page": 32
-  },
-  {
-    "id": 51,
-    "slug": "my-zy-012",
-    "title": "MY-ZY-012",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-012"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-012/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-012/view-01.jpg",
-      "assets/outdoor/collections/my-zy-012/view-03.jpg",
-      "assets/outdoor/collections/my-zy-012/view-02.jpg",
-      "assets/outdoor/collections/my-zy-012/view-04.jpg"
-    ],
-    "page": 33
-  },
-  {
-    "id": 52,
-    "slug": "my-zy-013",
-    "title": "MY-ZY-013",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-013"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-013/view-19.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-013/view-19.jpg",
-      "assets/outdoor/collections/my-zy-013/view-20.jpg",
-      "assets/outdoor/collections/my-zy-013/view-21.jpg",
-      "assets/outdoor/collections/my-zy-013/view-22.jpg",
-      "assets/outdoor/collections/my-zy-013/view-23.jpg",
-      "assets/outdoor/collections/my-zy-013/view-24.jpg",
-      "assets/outdoor/collections/my-zy-013/view-25.jpg",
-      "assets/outdoor/collections/my-zy-013/view-26.jpg",
-      "assets/outdoor/collections/my-zy-013/view-01.jpg",
-      "assets/outdoor/collections/my-zy-013/view-03.jpg",
-      "assets/outdoor/collections/my-zy-013/view-04.jpg",
-      "assets/outdoor/collections/my-zy-013/view-05.jpg",
-      "assets/outdoor/collections/my-zy-013/view-06.jpg",
-      "assets/outdoor/collections/my-zy-013/view-07.jpg",
-      "assets/outdoor/collections/my-zy-013/view-09.jpg",
-      "assets/outdoor/collections/my-zy-013/view-10.jpg",
-      "assets/outdoor/collections/my-zy-013/view-11.jpg",
-      "assets/outdoor/collections/my-zy-013/view-12.jpg",
-      "assets/outdoor/collections/my-zy-013/view-13.jpg",
-      "assets/outdoor/collections/my-zy-013/view-15.jpg",
-      "assets/outdoor/collections/my-zy-013/view-16.jpg",
-      "assets/outdoor/collections/my-zy-013/view-02.jpg",
-      "assets/outdoor/collections/my-zy-013/view-08.jpg",
-      "assets/outdoor/collections/my-zy-013/view-14.jpg",
-      "assets/outdoor/collections/my-zy-013/view-18.jpg",
-      "assets/outdoor/collections/my-zy-013/view-17.jpg"
-    ],
-    "page": 33
-  },
-  {
-    "id": 53,
-    "slug": "my-zy-014",
-    "title": "MY-ZY-014",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-014"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-014/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-014/view-01.jpg",
-      "assets/outdoor/collections/my-zy-014/view-02.jpg",
-      "assets/outdoor/collections/my-zy-014/view-03.jpg",
-      "assets/outdoor/collections/my-zy-014/view-04.jpg",
-      "assets/outdoor/collections/my-zy-014/view-07.jpg",
-      "assets/outdoor/collections/my-zy-014/view-06.jpg",
-      "assets/outdoor/collections/my-zy-014/view-08.jpg",
-      "assets/outdoor/collections/my-zy-014/view-05.jpg"
-    ],
-    "page": 34
-  },
-  {
-    "id": 54,
-    "slug": "my-zy-015",
-    "title": "MY-ZY-015",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-015"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-015/view-14.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-015/view-14.jpg",
-      "assets/outdoor/collections/my-zy-015/view-17.jpg",
-      "assets/outdoor/collections/my-zy-015/view-12.jpg",
-      "assets/outdoor/collections/my-zy-015/view-13.jpg",
-      "assets/outdoor/collections/my-zy-015/view-01.jpg",
-      "assets/outdoor/collections/my-zy-015/view-09.jpg",
-      "assets/outdoor/collections/my-zy-015/view-02.jpg",
-      "assets/outdoor/collections/my-zy-015/view-11.jpg",
-      "assets/outdoor/collections/my-zy-015/view-05.jpg",
-      "assets/outdoor/collections/my-zy-015/view-16.jpg",
-      "assets/outdoor/collections/my-zy-015/view-15.jpg",
-      "assets/outdoor/collections/my-zy-015/view-10.jpg",
-      "assets/outdoor/collections/my-zy-015/view-04.jpg",
-      "assets/outdoor/collections/my-zy-015/view-07.jpg",
-      "assets/outdoor/collections/my-zy-015/view-06.jpg",
-      "assets/outdoor/collections/my-zy-015/view-08.jpg",
-      "assets/outdoor/collections/my-zy-015/view-03.jpg"
-    ],
-    "page": 34
-  },
-  {
-    "id": 55,
-    "slug": "my-zy-016",
-    "title": "MY-ZY-016",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-016"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-016/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-016/view-02.jpg",
-      "assets/outdoor/collections/my-zy-016/view-03.jpg",
-      "assets/outdoor/collections/my-zy-016/view-05.jpg",
-      "assets/outdoor/collections/my-zy-016/view-06.jpg",
-      "assets/outdoor/collections/my-zy-016/view-04.jpg",
-      "assets/outdoor/collections/my-zy-016/view-08.jpg",
-      "assets/outdoor/collections/my-zy-016/view-01.jpg",
-      "assets/outdoor/collections/my-zy-016/view-07.jpg"
-    ],
-    "page": 35
-  },
-  {
-    "id": 56,
-    "slug": "my-zy-017",
-    "title": "MY-ZY-017",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-017"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-017/view-15.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-017/view-15.jpg",
-      "assets/outdoor/collections/my-zy-017/view-14.jpg",
-      "assets/outdoor/collections/my-zy-017/view-16.jpg",
-      "assets/outdoor/collections/my-zy-017/view-02.jpg",
-      "assets/outdoor/collections/my-zy-017/view-04.jpg",
-      "assets/outdoor/collections/my-zy-017/view-05.jpg",
-      "assets/outdoor/collections/my-zy-017/view-07.jpg",
-      "assets/outdoor/collections/my-zy-017/view-09.jpg",
-      "assets/outdoor/collections/my-zy-017/view-11.jpg",
-      "assets/outdoor/collections/my-zy-017/view-13.jpg",
-      "assets/outdoor/collections/my-zy-017/view-01.jpg",
-      "assets/outdoor/collections/my-zy-017/view-03.jpg",
-      "assets/outdoor/collections/my-zy-017/view-06.jpg",
-      "assets/outdoor/collections/my-zy-017/view-08.jpg",
-      "assets/outdoor/collections/my-zy-017/view-10.jpg",
-      "assets/outdoor/collections/my-zy-017/view-12.jpg"
-    ],
-    "page": 35
-  },
-  {
-    "id": 57,
-    "slug": "my-zy-018",
-    "title": "MY-ZY-018",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-018"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-018/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-018/view-01.jpg",
-      "assets/outdoor/collections/my-zy-018/view-02.jpg",
-      "assets/outdoor/collections/my-zy-018/view-03.jpg"
-    ],
-    "page": 36
-  },
-  {
-    "id": 58,
-    "slug": "my-zy-019",
-    "title": "MY-ZY-019",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-019"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-019/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-019/view-02.jpg",
-      "assets/outdoor/collections/my-zy-019/view-04.jpg",
-      "assets/outdoor/collections/my-zy-019/view-05.jpg",
-      "assets/outdoor/collections/my-zy-019/view-01.jpg",
-      "assets/outdoor/collections/my-zy-019/view-11.jpg",
-      "assets/outdoor/collections/my-zy-019/view-10.jpg",
-      "assets/outdoor/collections/my-zy-019/view-07.jpg",
-      "assets/outdoor/collections/my-zy-019/view-13.jpg",
-      "assets/outdoor/collections/my-zy-019/view-06.jpg",
-      "assets/outdoor/collections/my-zy-019/view-03.jpg",
-      "assets/outdoor/collections/my-zy-019/view-18.jpg",
-      "assets/outdoor/collections/my-zy-019/view-08.jpg",
-      "assets/outdoor/collections/my-zy-019/view-16.jpg",
-      "assets/outdoor/collections/my-zy-019/view-14.jpg",
-      "assets/outdoor/collections/my-zy-019/view-15.jpg",
-      "assets/outdoor/collections/my-zy-019/view-09.jpg",
-      "assets/outdoor/collections/my-zy-019/view-12.jpg",
-      "assets/outdoor/collections/my-zy-019/view-17.jpg"
-    ],
-    "page": 36
-  },
-  {
-    "id": 59,
-    "slug": "my-zy-021",
-    "title": "MY-ZY-021",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-021"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-021/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-021/view-01.jpg",
-      "assets/outdoor/collections/my-zy-021/view-02.jpg",
-      "assets/outdoor/collections/my-zy-021/view-03.jpg",
-      "assets/outdoor/collections/my-zy-021/view-05.jpg",
-      "assets/outdoor/collections/my-zy-021/view-06.jpg",
-      "assets/outdoor/collections/my-zy-021/view-07.jpg",
-      "assets/outdoor/collections/my-zy-021/view-10.jpg",
-      "assets/outdoor/collections/my-zy-021/view-12.jpg",
-      "assets/outdoor/collections/my-zy-021/view-13.jpg",
-      "assets/outdoor/collections/my-zy-021/view-14.jpg",
-      "assets/outdoor/collections/my-zy-021/view-16.jpg",
-      "assets/outdoor/collections/my-zy-021/view-11.jpg",
-      "assets/outdoor/collections/my-zy-021/view-15.jpg",
-      "assets/outdoor/collections/my-zy-021/view-04.jpg",
-      "assets/outdoor/collections/my-zy-021/view-08.jpg",
-      "assets/outdoor/collections/my-zy-021/view-09.jpg",
-      "assets/outdoor/collections/my-zy-021/view-17.jpg"
-    ],
-    "page": 37
-  },
-  {
-    "id": 60,
-    "slug": "my-zy-022",
-    "title": "MY-ZY-022",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-022"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-022/view-09.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-022/view-09.jpg",
-      "assets/outdoor/collections/my-zy-022/view-10.jpg",
-      "assets/outdoor/collections/my-zy-022/view-12.jpg",
-      "assets/outdoor/collections/my-zy-022/view-11.jpg",
-      "assets/outdoor/collections/my-zy-022/view-01.jpg",
-      "assets/outdoor/collections/my-zy-022/view-02.jpg",
-      "assets/outdoor/collections/my-zy-022/view-03.jpg",
-      "assets/outdoor/collections/my-zy-022/view-04.jpg",
-      "assets/outdoor/collections/my-zy-022/view-08.jpg",
-      "assets/outdoor/collections/my-zy-022/view-05.jpg",
-      "assets/outdoor/collections/my-zy-022/view-06.jpg",
-      "assets/outdoor/collections/my-zy-022/view-07.jpg"
-    ],
-    "page": 37
-  },
-  {
-    "id": 61,
-    "slug": "my-zy-023",
-    "title": "MY-ZY-023",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-023"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-023/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-023/view-01.jpg",
-      "assets/outdoor/collections/my-zy-023/view-02.jpg",
-      "assets/outdoor/collections/my-zy-023/view-03.jpg",
-      "assets/outdoor/collections/my-zy-023/view-04.jpg"
-    ],
-    "page": 38
-  },
-  {
-    "id": 62,
-    "slug": "my-zy-024",
-    "title": "MY-ZY-024",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-024"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-024/view-08.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-024/view-08.jpg",
-      "assets/outdoor/collections/my-zy-024/view-10.jpg",
-      "assets/outdoor/collections/my-zy-024/view-07.jpg",
-      "assets/outdoor/collections/my-zy-024/view-06.jpg",
-      "assets/outdoor/collections/my-zy-024/view-09.jpg",
-      "assets/outdoor/collections/my-zy-024/view-11.jpg",
-      "assets/outdoor/collections/my-zy-024/view-13.jpg",
-      "assets/outdoor/collections/my-zy-024/view-12.jpg",
-      "assets/outdoor/collections/my-zy-024/view-01.jpg",
-      "assets/outdoor/collections/my-zy-024/view-04.jpg",
-      "assets/outdoor/collections/my-zy-024/view-03.jpg",
-      "assets/outdoor/collections/my-zy-024/view-02.jpg",
-      "assets/outdoor/collections/my-zy-024/view-05.jpg"
-    ],
-    "page": 38
-  },
-  {
-    "id": 63,
-    "slug": "my-zy-026",
-    "title": "MY-ZY-026",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-026"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-026/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-026/view-01.jpg",
-      "assets/outdoor/collections/my-zy-026/view-02.jpg",
-      "assets/outdoor/collections/my-zy-026/view-04.jpg",
-      "assets/outdoor/collections/my-zy-026/view-05.jpg",
-      "assets/outdoor/collections/my-zy-026/view-08.jpg",
-      "assets/outdoor/collections/my-zy-026/view-07.jpg",
-      "assets/outdoor/collections/my-zy-026/view-06.jpg",
-      "assets/outdoor/collections/my-zy-026/view-03.jpg"
-    ],
-    "page": 39
-  },
-  {
-    "id": 64,
-    "slug": "my-zy-027",
-    "title": "MY-ZY-027",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-027"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-027/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-027/view-01.jpg",
-      "assets/outdoor/collections/my-zy-027/view-02.jpg",
-      "assets/outdoor/collections/my-zy-027/view-03.jpg",
-      "assets/outdoor/collections/my-zy-027/view-05.jpg",
-      "assets/outdoor/collections/my-zy-027/view-04.jpg"
-    ],
-    "page": 39
-  },
-  {
-    "id": 65,
-    "slug": "my-zy-028",
-    "title": "MY-ZY-028",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-028"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-028/view-03.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-028/view-03.jpg",
-      "assets/outdoor/collections/my-zy-028/view-04.jpg",
-      "assets/outdoor/collections/my-zy-028/view-05.jpg",
-      "assets/outdoor/collections/my-zy-028/view-06.jpg",
-      "assets/outdoor/collections/my-zy-028/view-01.jpg",
-      "assets/outdoor/collections/my-zy-028/view-02.jpg"
-    ],
-    "page": 39
-  },
-  {
-    "id": 66,
-    "slug": "my-zy-029",
-    "title": "MY-ZY-029",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-029"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-029/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-029/view-02.jpg",
-      "assets/outdoor/collections/my-zy-029/view-03.jpg",
-      "assets/outdoor/collections/my-zy-029/view-01.jpg",
-      "assets/outdoor/collections/my-zy-029/view-08.jpg",
-      "assets/outdoor/collections/my-zy-029/view-10.jpg",
-      "assets/outdoor/collections/my-zy-029/view-09.jpg",
-      "assets/outdoor/collections/my-zy-029/view-06.jpg",
-      "assets/outdoor/collections/my-zy-029/view-07.jpg",
-      "assets/outdoor/collections/my-zy-029/view-05.jpg",
-      "assets/outdoor/collections/my-zy-029/view-04.jpg"
-    ],
-    "page": 39
-  },
-  {
-    "id": 67,
-    "slug": "my-zy-030",
-    "title": "MY-ZY-030",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-030"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-030/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-030/view-01.jpg",
-      "assets/outdoor/collections/my-zy-030/view-02.jpg",
-      "assets/outdoor/collections/my-zy-030/view-04.jpg",
-      "assets/outdoor/collections/my-zy-030/view-03.jpg"
-    ],
-    "page": 40
-  },
-  {
-    "id": 68,
-    "slug": "my-zy-031",
-    "title": "MY-ZY-031",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-031"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-031/view-03.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-031/view-03.jpg",
-      "assets/outdoor/collections/my-zy-031/view-04.jpg",
-      "assets/outdoor/collections/my-zy-031/view-05.jpg",
-      "assets/outdoor/collections/my-zy-031/view-01.jpg",
-      "assets/outdoor/collections/my-zy-031/view-02.jpg"
-    ],
-    "page": 40
-  },
-  {
-    "id": 69,
-    "slug": "my-zy-032",
-    "title": "MY-ZY-032",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-032"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-032/view-13.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-032/view-13.jpg",
-      "assets/outdoor/collections/my-zy-032/view-11.jpg",
-      "assets/outdoor/collections/my-zy-032/view-12.jpg",
-      "assets/outdoor/collections/my-zy-032/view-04.jpg",
-      "assets/outdoor/collections/my-zy-032/view-01.jpg",
-      "assets/outdoor/collections/my-zy-032/view-02.jpg",
-      "assets/outdoor/collections/my-zy-032/view-07.jpg",
-      "assets/outdoor/collections/my-zy-032/view-03.jpg",
-      "assets/outdoor/collections/my-zy-032/view-09.jpg",
-      "assets/outdoor/collections/my-zy-032/view-05.jpg",
-      "assets/outdoor/collections/my-zy-032/view-06.jpg",
-      "assets/outdoor/collections/my-zy-032/view-08.jpg",
-      "assets/outdoor/collections/my-zy-032/view-10.jpg"
-    ],
-    "page": 40
-  },
-  {
-    "id": 70,
-    "slug": "my-zy-033",
-    "title": "MY-ZY-033",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-033"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-033/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-033/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 71,
-    "slug": "my-zy-034",
-    "title": "MY-ZY-034",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-034"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-034/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-034/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 72,
-    "slug": "my-zy-035",
-    "title": "MY-ZY-035",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-035"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-035/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-035/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 73,
-    "slug": "my-zy-036",
-    "title": "MY-ZY-036",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-036"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-036/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-036/view-01.jpg",
-      "assets/outdoor/collections/my-zy-036/view-02.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 74,
-    "slug": "my-zy-037",
-    "title": "MY-ZY-037",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-037"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-037/view-03.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-037/view-03.jpg",
-      "assets/outdoor/collections/my-zy-037/view-02.jpg",
-      "assets/outdoor/collections/my-zy-037/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 75,
-    "slug": "my-zy-038",
-    "title": "MY-ZY-038",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-038"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-038/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-038/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 76,
-    "slug": "my-zy-039",
-    "title": "MY-ZY-039",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-039"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-039/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-039/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 77,
-    "slug": "my-zy-040",
-    "title": "MY-ZY-040",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-040"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-040/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-040/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 78,
-    "slug": "my-zy-041",
-    "title": "MY-ZY-041",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-041"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-041/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-041/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 79,
-    "slug": "my-zy-042",
-    "title": "MY-ZY-042",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-042"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-042/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-042/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 80,
-    "slug": "my-zy-043",
-    "title": "MY-ZY-043",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-043"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-043/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-043/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 81,
-    "slug": "my-zy-044",
-    "title": "MY-ZY-044",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-044"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-044/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-044/view-01.jpg",
-      "assets/outdoor/collections/my-zy-044/view-03.jpg",
-      "assets/outdoor/collections/my-zy-044/view-02.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 82,
-    "slug": "my-zy-045",
-    "title": "MY-ZY-045",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-045"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-045/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-045/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 83,
-    "slug": "my-zy-046",
-    "title": "MY-ZY-046",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-046"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-046/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-046/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 84,
-    "slug": "my-zy-047",
-    "title": "MY-ZY-047",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-047"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-047/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-047/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 85,
-    "slug": "my-zy-048",
-    "title": "MY-ZY-048",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-048"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-048/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-048/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 86,
-    "slug": "my-zy-049",
-    "title": "MY-ZY-049",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-049"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-049/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-049/view-01.jpg"
-    ],
-    "page": 41
-  },
-  {
-    "id": 87,
-    "slug": "my-zy-053",
-    "title": "MY-ZY-053",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-053"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-053/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-053/view-01.jpg",
-      "assets/outdoor/collections/my-zy-053/view-04.jpg",
-      "assets/outdoor/collections/my-zy-053/view-05.jpg",
-      "assets/outdoor/collections/my-zy-053/view-03.jpg",
-      "assets/outdoor/collections/my-zy-053/view-02.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 88,
-    "slug": "my-zy-054",
-    "title": "MY-ZY-054",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-054"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-054/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-054/view-01.jpg",
-      "assets/outdoor/collections/my-zy-054/view-02.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 89,
-    "slug": "my-zy-055",
-    "title": "MY-ZY-055",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-055"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-055/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-055/view-01.jpg",
-      "assets/outdoor/collections/my-zy-055/view-02.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 90,
-    "slug": "my-zy-056",
-    "title": "MY-ZY-056",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-056"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-056/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-056/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 91,
-    "slug": "my-zy-057",
-    "title": "MY-ZY-057",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-057"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-057/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-057/view-01.jpg",
-      "assets/outdoor/collections/my-zy-057/view-02.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 92,
-    "slug": "my-zy-058",
-    "title": "MY-ZY-058",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-058"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-058/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-058/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 93,
-    "slug": "my-zy-059",
-    "title": "MY-ZY-059",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-059"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-059/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-059/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 94,
-    "slug": "my-zy-060",
-    "title": "MY-ZY-060",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-060"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-060/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-060/view-02.jpg",
-      "assets/outdoor/collections/my-zy-060/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 95,
-    "slug": "my-zy-061",
-    "title": "MY-ZY-061",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-061"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-061/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-061/view-02.jpg",
-      "assets/outdoor/collections/my-zy-061/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 96,
-    "slug": "my-zy-062",
-    "title": "MY-ZY-062",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-062"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-062/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-062/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 97,
-    "slug": "my-zy-063",
-    "title": "MY-ZY-063",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-063"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-063/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-063/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 98,
-    "slug": "my-zy-064",
-    "title": "MY-ZY-064",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-064"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-064/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-064/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 99,
-    "slug": "my-zy-065",
-    "title": "MY-ZY-065",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-065"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-065/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-065/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 100,
-    "slug": "my-zy-066",
-    "title": "MY-ZY-066",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-066"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-066/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-066/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 101,
-    "slug": "my-zy-067",
-    "title": "MY-ZY-067",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-067"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-067/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-067/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 102,
-    "slug": "my-zy-068",
-    "title": "MY-ZY-068",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-068"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-068/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-068/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 103,
-    "slug": "my-zy-069",
-    "title": "MY-ZY-069",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-069"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-069/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-069/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 104,
-    "slug": "my-zy-070",
-    "title": "MY-ZY-070",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-070"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-070/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-070/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 105,
-    "slug": "my-zy-071",
-    "title": "MY-ZY-071",
-    "short": "Уличная мебель из плетения",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-ZY-071"
-    ],
-    "cover": "assets/outdoor/collections/my-zy-071/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-zy-071/view-01.jpg"
-    ],
-    "page": 42
-  },
-  {
-    "id": 106,
-    "slug": "my-c-01",
-    "title": "MY-C-01",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-01"
-    ],
-    "cover": "assets/outdoor/collections/my-c-01/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-01/view-02.jpg",
-      "assets/outdoor/collections/my-c-01/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 107,
-    "slug": "my-c-02",
-    "title": "MY-C-02",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-02"
-    ],
-    "cover": "assets/outdoor/collections/my-c-02/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-02/view-02.jpg",
-      "assets/outdoor/collections/my-c-02/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 108,
-    "slug": "my-c-03",
-    "title": "MY-C-03",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-03"
-    ],
-    "cover": "assets/outdoor/collections/my-c-03/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-03/view-01.jpg",
-      "assets/outdoor/collections/my-c-03/view-02.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 109,
-    "slug": "my-c-04",
-    "title": "MY-C-04",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-04"
-    ],
-    "cover": "assets/outdoor/collections/my-c-04/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-04/view-01.jpg",
-      "assets/outdoor/collections/my-c-04/view-02.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 110,
-    "slug": "my-c-05",
-    "title": "MY-C-05",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-05"
-    ],
-    "cover": "assets/outdoor/collections/my-c-05/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-05/view-01.jpg",
-      "assets/outdoor/collections/my-c-05/view-02.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 111,
-    "slug": "my-c-06",
-    "title": "MY-C-06",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-06"
-    ],
-    "cover": "assets/outdoor/collections/my-c-06/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-06/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 112,
-    "slug": "my-c-07",
-    "title": "MY-C-07",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-07"
-    ],
-    "cover": "assets/outdoor/collections/my-c-07/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-07/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 113,
-    "slug": "my-c-08",
-    "title": "MY-C-08",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-08"
-    ],
-    "cover": "assets/outdoor/collections/my-c-08/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-08/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 114,
-    "slug": "my-c-09",
-    "title": "MY-C-09",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-09"
-    ],
-    "cover": "assets/outdoor/collections/my-c-09/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-09/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 115,
-    "slug": "my-c-10",
-    "title": "MY-C-10",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-10"
-    ],
-    "cover": "assets/outdoor/collections/my-c-10/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-10/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 116,
-    "slug": "my-c-12",
-    "title": "MY-C-12",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-12"
-    ],
-    "cover": "assets/outdoor/collections/my-c-12/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-12/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 117,
-    "slug": "my-c-13",
-    "title": "MY-C-13",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-13"
-    ],
-    "cover": "assets/outdoor/collections/my-c-13/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-13/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 118,
-    "slug": "my-c-14",
-    "title": "MY-C-14",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-14"
-    ],
-    "cover": "assets/outdoor/collections/my-c-14/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-14/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 119,
-    "slug": "my-c-15",
-    "title": "MY-C-15",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-15"
-    ],
-    "cover": "assets/outdoor/collections/my-c-15/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-15/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 120,
-    "slug": "my-c-18",
-    "title": "MY-C-18",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-18"
-    ],
-    "cover": "assets/outdoor/collections/my-c-18/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-18/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 121,
-    "slug": "my-c-19",
-    "title": "MY-C-19",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-19"
-    ],
-    "cover": "assets/outdoor/collections/my-c-19/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-19/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 122,
-    "slug": "my-c-20",
-    "title": "MY-C-20",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-20"
-    ],
-    "cover": "assets/outdoor/collections/my-c-20/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-20/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 123,
-    "slug": "my-c-21",
-    "title": "MY-C-21",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-21"
-    ],
-    "cover": "assets/outdoor/collections/my-c-21/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-21/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 124,
-    "slug": "my-c-22",
-    "title": "MY-C-22",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-22"
-    ],
-    "cover": "assets/outdoor/collections/my-c-22/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-22/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 125,
-    "slug": "my-c-23",
-    "title": "MY-C-23",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-23"
-    ],
-    "cover": "assets/outdoor/collections/my-c-23/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-23/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 126,
-    "slug": "my-c-24",
-    "title": "MY-C-24",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-24"
-    ],
-    "cover": "assets/outdoor/collections/my-c-24/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-24/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 127,
-    "slug": "my-c-25",
-    "title": "MY-C-25",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-25"
-    ],
-    "cover": "assets/outdoor/collections/my-c-25/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-25/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 128,
-    "slug": "my-c-26",
-    "title": "MY-C-26",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-26"
-    ],
-    "cover": "assets/outdoor/collections/my-c-26/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-26/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 129,
-    "slug": "my-c-27",
-    "title": "MY-C-27",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-27"
-    ],
-    "cover": "assets/outdoor/collections/my-c-27/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-27/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 130,
-    "slug": "my-c-28",
-    "title": "MY-C-28",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-28"
-    ],
-    "cover": "assets/outdoor/collections/my-c-28/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-28/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 131,
-    "slug": "my-c-29",
-    "title": "MY-C-29",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-29"
-    ],
-    "cover": "assets/outdoor/collections/my-c-29/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-29/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 132,
-    "slug": "my-c-30",
-    "title": "MY-C-30",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-30"
-    ],
-    "cover": "assets/outdoor/collections/my-c-30/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-30/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 133,
-    "slug": "my-c-31",
-    "title": "MY-C-31",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-31"
-    ],
-    "cover": "assets/outdoor/collections/my-c-31/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-31/view-01.jpg"
-    ],
-    "page": 43
-  },
-  {
-    "id": 134,
-    "slug": "my-c-32",
-    "title": "MY-C-32",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-32"
-    ],
-    "cover": "assets/outdoor/collections/my-c-32/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-32/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 135,
-    "slug": "my-c-33",
-    "title": "MY-C-33",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-33"
-    ],
-    "cover": "assets/outdoor/collections/my-c-33/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-33/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 136,
-    "slug": "my-c-34",
-    "title": "MY-C-34",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-34"
-    ],
-    "cover": "assets/outdoor/collections/my-c-34/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-34/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 137,
-    "slug": "my-c-35",
-    "title": "MY-C-35",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-35"
-    ],
-    "cover": "assets/outdoor/collections/my-c-35/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-35/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 138,
-    "slug": "my-c-36",
-    "title": "MY-C-36",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-36"
-    ],
-    "cover": "assets/outdoor/collections/my-c-36/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-36/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 139,
-    "slug": "my-c-37",
-    "title": "MY-C-37",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-37"
-    ],
-    "cover": "assets/outdoor/collections/my-c-37/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-37/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 140,
-    "slug": "my-c-38",
-    "title": "MY-C-38",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-38"
-    ],
-    "cover": "assets/outdoor/collections/my-c-38/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-38/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 141,
-    "slug": "my-c-39",
-    "title": "MY-C-39",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-39"
-    ],
-    "cover": "assets/outdoor/collections/my-c-39/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-39/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 142,
-    "slug": "my-c-40",
-    "title": "MY-C-40",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-40"
-    ],
-    "cover": "assets/outdoor/collections/my-c-40/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-40/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 143,
-    "slug": "my-c-41",
-    "title": "MY-C-41",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-41"
-    ],
-    "cover": "assets/outdoor/collections/my-c-41/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-41/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 144,
-    "slug": "my-c-42",
-    "title": "MY-C-42",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-42"
-    ],
-    "cover": "assets/outdoor/collections/my-c-42/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-42/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 145,
-    "slug": "my-c-43",
-    "title": "MY-C-43",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-43"
-    ],
-    "cover": "assets/outdoor/collections/my-c-43/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-43/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 146,
-    "slug": "my-c-44",
-    "title": "MY-C-44",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-44"
-    ],
-    "cover": "assets/outdoor/collections/my-c-44/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-44/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 147,
-    "slug": "my-c-45",
-    "title": "MY-C-45",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-45"
-    ],
-    "cover": "assets/outdoor/collections/my-c-45/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-45/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 148,
-    "slug": "my-c-46",
-    "title": "MY-C-46",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-46"
-    ],
-    "cover": "assets/outdoor/collections/my-c-46/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-46/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 149,
-    "slug": "my-c-47",
-    "title": "MY-C-47",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-47"
-    ],
-    "cover": "assets/outdoor/collections/my-c-47/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-47/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 150,
-    "slug": "my-c-48",
-    "title": "MY-C-48",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-48"
-    ],
-    "cover": "assets/outdoor/collections/my-c-48/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-48/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 151,
-    "slug": "my-c-49",
-    "title": "MY-C-49",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-49"
-    ],
-    "cover": "assets/outdoor/collections/my-c-49/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-49/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 152,
-    "slug": "my-c-52",
-    "title": "MY-C-52",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-52"
-    ],
-    "cover": "assets/outdoor/collections/my-c-52/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-52/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 153,
-    "slug": "my-c-53",
-    "title": "MY-C-53",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-53"
-    ],
-    "cover": "assets/outdoor/collections/my-c-53/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-53/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 154,
-    "slug": "my-c-54",
-    "title": "MY-C-54",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-54"
-    ],
-    "cover": "assets/outdoor/collections/my-c-54/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-54/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 155,
-    "slug": "my-c-55",
-    "title": "MY-C-55",
-    "short": "Стулья для террасы и веранды",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-C-55"
-    ],
-    "cover": "assets/outdoor/collections/my-c-55/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-c-55/view-01.jpg",
-      "assets/outdoor/collections/my-c-55/view-02.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 156,
-    "slug": "my-t-1",
-    "title": "MY-T-1",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-1"
-    ],
-    "cover": "assets/outdoor/collections/my-t-1/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-1/view-02.jpg",
-      "assets/outdoor/collections/my-t-1/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 157,
-    "slug": "my-t-2",
-    "title": "MY-T-2",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-2"
-    ],
-    "cover": "assets/outdoor/collections/my-t-2/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-2/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 158,
-    "slug": "my-t-3",
-    "title": "MY-T-3",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-3"
-    ],
-    "cover": "assets/outdoor/collections/my-t-3/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-3/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 159,
-    "slug": "my-t-4",
-    "title": "MY-T-4",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-4"
-    ],
-    "cover": "assets/outdoor/collections/my-t-4/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-4/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 160,
-    "slug": "my-t-5",
-    "title": "MY-T-5",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-5"
-    ],
-    "cover": "assets/outdoor/collections/my-t-5/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-5/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 161,
-    "slug": "my-t-6",
-    "title": "MY-T-6",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-6"
-    ],
-    "cover": "assets/outdoor/collections/my-t-6/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-6/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 162,
-    "slug": "my-t-7",
-    "title": "MY-T-7",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-7"
-    ],
-    "cover": "assets/outdoor/collections/my-t-7/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-7/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 163,
-    "slug": "my-t-8",
-    "title": "MY-T-8",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-8"
-    ],
-    "cover": "assets/outdoor/collections/my-t-8/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-8/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 164,
-    "slug": "my-t-9",
-    "title": "MY-T-9",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-9"
-    ],
-    "cover": "assets/outdoor/collections/my-t-9/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-9/view-01.jpg"
-    ],
-    "page": 44
-  },
-  {
-    "id": 165,
-    "slug": "my-t-15",
-    "title": "MY-T-15",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-15"
-    ],
-    "cover": "assets/outdoor/collections/my-t-15/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-15/view-02.jpg",
-      "assets/outdoor/collections/my-t-15/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 166,
-    "slug": "my-t-16",
-    "title": "MY-T-16",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-16"
-    ],
-    "cover": "assets/outdoor/collections/my-t-16/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-16/view-02.jpg",
-      "assets/outdoor/collections/my-t-16/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 167,
-    "slug": "my-t-17",
-    "title": "MY-T-17",
-    "short": "Столы для открытых пространств",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-T-17"
-    ],
-    "cover": "assets/outdoor/collections/my-t-17/view-04.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-t-17/view-04.jpg",
-      "assets/outdoor/collections/my-t-17/view-03.jpg",
-      "assets/outdoor/collections/my-t-17/view-02.jpg",
-      "assets/outdoor/collections/my-t-17/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 168,
-    "slug": "my-s-1",
-    "title": "MY-S-1",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-1"
-    ],
-    "cover": "assets/outdoor/collections/my-s-1/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-1/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 169,
-    "slug": "my-s-2",
-    "title": "MY-S-2",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-2"
-    ],
-    "cover": "assets/outdoor/collections/my-s-2/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-2/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 170,
-    "slug": "my-s-3",
-    "title": "MY-S-3",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-3"
-    ],
-    "cover": "assets/outdoor/collections/my-s-3/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-3/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 171,
-    "slug": "my-s-4",
-    "title": "MY-S-4",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-4"
-    ],
-    "cover": "assets/outdoor/collections/my-s-4/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-4/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 172,
-    "slug": "my-s-5",
-    "title": "MY-S-5",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-5"
-    ],
-    "cover": "assets/outdoor/collections/my-s-5/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-5/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 173,
-    "slug": "my-s-6",
-    "title": "MY-S-6",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-6"
-    ],
-    "cover": "assets/outdoor/collections/my-s-6/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-6/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 174,
-    "slug": "my-s-7",
-    "title": "MY-S-7",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-7"
-    ],
-    "cover": "assets/outdoor/collections/my-s-7/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-7/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 175,
-    "slug": "my-s-8",
-    "title": "MY-S-8",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-8"
-    ],
-    "cover": "assets/outdoor/collections/my-s-8/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-8/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 176,
-    "slug": "my-s-9",
-    "title": "MY-S-9",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-9"
-    ],
-    "cover": "assets/outdoor/collections/my-s-9/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-9/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 177,
-    "slug": "my-s-10",
-    "title": "MY-S-10",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-10"
-    ],
-    "cover": "assets/outdoor/collections/my-s-10/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-10/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 178,
-    "slug": "my-s-11",
-    "title": "MY-S-11",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-11"
-    ],
-    "cover": "assets/outdoor/collections/my-s-11/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-11/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 179,
-    "slug": "my-s-12",
-    "title": "MY-S-12",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-12"
-    ],
-    "cover": "assets/outdoor/collections/my-s-12/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-12/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 180,
-    "slug": "my-s-13",
-    "title": "MY-S-13",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-13"
-    ],
-    "cover": "assets/outdoor/collections/my-s-13/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-13/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 181,
-    "slug": "my-s-14",
-    "title": "MY-S-14",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-14"
-    ],
-    "cover": "assets/outdoor/collections/my-s-14/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-14/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 182,
-    "slug": "my-s-15",
-    "title": "MY-S-15",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-15"
-    ],
-    "cover": "assets/outdoor/collections/my-s-15/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-15/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 183,
-    "slug": "my-s-16",
-    "title": "MY-S-16",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-16"
-    ],
-    "cover": "assets/outdoor/collections/my-s-16/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-16/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 184,
-    "slug": "my-s-17",
-    "title": "MY-S-17",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-17"
-    ],
-    "cover": "assets/outdoor/collections/my-s-17/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-17/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 185,
-    "slug": "my-s-18",
-    "title": "MY-S-18",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-18"
-    ],
-    "cover": "assets/outdoor/collections/my-s-18/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-18/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 186,
-    "slug": "my-s-19",
-    "title": "MY-S-19",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-19"
-    ],
-    "cover": "assets/outdoor/collections/my-s-19/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-19/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 187,
-    "slug": "my-s-20",
-    "title": "MY-S-20",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-20"
-    ],
-    "cover": "assets/outdoor/collections/my-s-20/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-20/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 188,
-    "slug": "my-s-21",
-    "title": "MY-S-21",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-21"
-    ],
-    "cover": "assets/outdoor/collections/my-s-21/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-21/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 189,
-    "slug": "my-s-22",
-    "title": "MY-S-22",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-22"
-    ],
-    "cover": "assets/outdoor/collections/my-s-22/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-22/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 190,
-    "slug": "my-s-23",
-    "title": "MY-S-23",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-23"
-    ],
-    "cover": "assets/outdoor/collections/my-s-23/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-23/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 191,
-    "slug": "my-s-24",
-    "title": "MY-S-24",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-24"
-    ],
-    "cover": "assets/outdoor/collections/my-s-24/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-24/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 192,
-    "slug": "my-s-25",
-    "title": "MY-S-25",
-    "short": "Табуреты и скамейки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-S-25"
-    ],
-    "cover": "assets/outdoor/collections/my-s-25/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-s-25/view-01.jpg"
-    ],
-    "page": 45
-  },
-  {
-    "id": 193,
-    "slug": "my-b-1",
-    "title": "MY-B-1",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-1"
-    ],
-    "cover": "assets/outdoor/collections/my-b-1/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-1/view-01.jpg",
-      "assets/outdoor/collections/my-b-1/view-02.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 194,
-    "slug": "my-b-2",
-    "title": "MY-B-2",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-2"
-    ],
-    "cover": "assets/outdoor/collections/my-b-2/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-2/view-02.jpg",
-      "assets/outdoor/collections/my-b-2/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 195,
-    "slug": "my-b-3",
-    "title": "MY-B-3",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-3"
-    ],
-    "cover": "assets/outdoor/collections/my-b-3/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-3/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 196,
-    "slug": "my-b-4",
-    "title": "MY-B-4",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-4"
-    ],
-    "cover": "assets/outdoor/collections/my-b-4/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-4/view-01.jpg",
-      "assets/outdoor/collections/my-b-4/view-02.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 197,
-    "slug": "my-b-5",
-    "title": "MY-B-5",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-5"
-    ],
-    "cover": "assets/outdoor/collections/my-b-5/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-5/view-01.jpg",
-      "assets/outdoor/collections/my-b-5/view-02.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 198,
-    "slug": "my-b-6",
-    "title": "MY-B-6",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-6"
-    ],
-    "cover": "assets/outdoor/collections/my-b-6/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-6/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 199,
-    "slug": "my-b-7",
-    "title": "MY-B-7",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-7"
-    ],
-    "cover": "assets/outdoor/collections/my-b-7/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-7/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 200,
-    "slug": "my-b-8",
-    "title": "MY-B-8",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-8"
-    ],
-    "cover": "assets/outdoor/collections/my-b-8/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-8/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 201,
-    "slug": "my-b-9",
-    "title": "MY-B-9",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-9"
-    ],
-    "cover": "assets/outdoor/collections/my-b-9/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-9/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 202,
-    "slug": "my-b-10",
-    "title": "MY-B-10",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-10"
-    ],
-    "cover": "assets/outdoor/collections/my-b-10/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-10/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 203,
-    "slug": "my-b-11",
-    "title": "MY-B-11",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-11"
-    ],
-    "cover": "assets/outdoor/collections/my-b-11/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-11/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 204,
-    "slug": "my-b-12",
-    "title": "MY-B-12",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-12"
-    ],
-    "cover": "assets/outdoor/collections/my-b-12/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-12/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 205,
-    "slug": "my-b-13",
-    "title": "MY-B-13",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-13"
-    ],
-    "cover": "assets/outdoor/collections/my-b-13/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-13/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 206,
-    "slug": "my-b-14",
-    "title": "MY-B-14",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-14"
-    ],
-    "cover": "assets/outdoor/collections/my-b-14/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-14/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 207,
-    "slug": "my-b-15",
-    "title": "MY-B-15",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-15"
-    ],
-    "cover": "assets/outdoor/collections/my-b-15/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-15/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 208,
-    "slug": "my-b-17",
-    "title": "MY-B-17",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-17"
-    ],
-    "cover": "assets/outdoor/collections/my-b-17/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-17/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 209,
-    "slug": "my-b-18",
-    "title": "MY-B-18",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-18"
-    ],
-    "cover": "assets/outdoor/collections/my-b-18/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-18/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 210,
-    "slug": "my-b-21",
-    "title": "MY-B-21",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-21"
-    ],
-    "cover": "assets/outdoor/collections/my-b-21/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-21/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 211,
-    "slug": "my-b-22",
-    "title": "MY-B-22",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-22"
-    ],
-    "cover": "assets/outdoor/collections/my-b-22/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-22/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 212,
-    "slug": "my-b-23",
-    "title": "MY-B-23",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-23"
-    ],
-    "cover": "assets/outdoor/collections/my-b-23/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-23/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 213,
-    "slug": "my-b-24",
-    "title": "MY-B-24",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-24"
-    ],
-    "cover": "assets/outdoor/collections/my-b-24/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-24/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 214,
-    "slug": "my-b-25",
-    "title": "MY-B-25",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-25"
-    ],
-    "cover": "assets/outdoor/collections/my-b-25/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-25/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 215,
-    "slug": "my-b-26",
-    "title": "MY-B-26",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-26"
-    ],
-    "cover": "assets/outdoor/collections/my-b-26/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-26/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 216,
-    "slug": "my-b-27",
-    "title": "MY-B-27",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-27"
-    ],
-    "cover": "assets/outdoor/collections/my-b-27/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-27/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 217,
-    "slug": "my-b-28",
-    "title": "MY-B-28",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-28"
-    ],
-    "cover": "assets/outdoor/collections/my-b-28/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-28/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 218,
-    "slug": "my-b-29",
-    "title": "MY-B-29",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-29"
-    ],
-    "cover": "assets/outdoor/collections/my-b-29/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-29/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 219,
-    "slug": "my-b-30",
-    "title": "MY-B-30",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-30"
-    ],
-    "cover": "assets/outdoor/collections/my-b-30/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-30/view-01.jpg"
-    ],
-    "page": 46
-  },
-  {
-    "id": 220,
-    "slug": "my-b-36",
-    "title": "MY-B-36",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-36"
-    ],
-    "cover": "assets/outdoor/collections/my-b-36/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-36/view-01.jpg",
-      "assets/outdoor/collections/my-b-36/view-02.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 221,
-    "slug": "my-b-37",
-    "title": "MY-B-37",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-37"
-    ],
-    "cover": "assets/outdoor/collections/my-b-37/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-37/view-01.jpg",
-      "assets/outdoor/collections/my-b-37/view-02.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 222,
-    "slug": "my-b-38",
-    "title": "MY-B-38",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-38"
-    ],
-    "cover": "assets/outdoor/collections/my-b-38/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-38/view-02.jpg",
-      "assets/outdoor/collections/my-b-38/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 223,
-    "slug": "my-b-39",
-    "title": "MY-B-39",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-39"
-    ],
-    "cover": "assets/outdoor/collections/my-b-39/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-39/view-02.jpg",
-      "assets/outdoor/collections/my-b-39/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 224,
-    "slug": "my-b-40",
-    "title": "MY-B-40",
-    "short": "Скамейки и софы",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-B-40"
-    ],
-    "cover": "assets/outdoor/collections/my-b-40/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-b-40/view-01.jpg",
-      "assets/outdoor/collections/my-b-40/view-02.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 225,
-    "slug": "my-r-1",
-    "title": "MY-R-1",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-1"
-    ],
-    "cover": "assets/outdoor/collections/my-r-1/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-1/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 226,
-    "slug": "my-r-2",
-    "title": "MY-R-2",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-2"
-    ],
-    "cover": "assets/outdoor/collections/my-r-2/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-2/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 227,
-    "slug": "my-r-3",
-    "title": "MY-R-3",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-3"
-    ],
-    "cover": "assets/outdoor/collections/my-r-3/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-3/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 228,
-    "slug": "my-r-4",
-    "title": "MY-R-4",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-4"
-    ],
-    "cover": "assets/outdoor/collections/my-r-4/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-4/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 229,
-    "slug": "my-r-5",
-    "title": "MY-R-5",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-5"
-    ],
-    "cover": "assets/outdoor/collections/my-r-5/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-5/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 230,
-    "slug": "my-r-6",
-    "title": "MY-R-6",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-6"
-    ],
-    "cover": "assets/outdoor/collections/my-r-6/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-6/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 231,
-    "slug": "my-r-7",
-    "title": "MY-R-7",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-7"
-    ],
-    "cover": "assets/outdoor/collections/my-r-7/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-7/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 232,
-    "slug": "my-r-8",
-    "title": "MY-R-8",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-8"
-    ],
-    "cover": "assets/outdoor/collections/my-r-8/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-8/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 233,
-    "slug": "my-r-9",
-    "title": "MY-R-9",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-9"
-    ],
-    "cover": "assets/outdoor/collections/my-r-9/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-9/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 234,
-    "slug": "my-r-10",
-    "title": "MY-R-10",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-10"
-    ],
-    "cover": "assets/outdoor/collections/my-r-10/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-10/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 235,
-    "slug": "my-r-11",
-    "title": "MY-R-11",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-11"
-    ],
-    "cover": "assets/outdoor/collections/my-r-11/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-11/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 236,
-    "slug": "my-r-12",
-    "title": "MY-R-12",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-12"
-    ],
-    "cover": "assets/outdoor/collections/my-r-12/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-12/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 237,
-    "slug": "my-r-13",
-    "title": "MY-R-13",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-13"
-    ],
-    "cover": "assets/outdoor/collections/my-r-13/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-13/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 238,
-    "slug": "my-r-14",
-    "title": "MY-R-14",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-14"
-    ],
-    "cover": "assets/outdoor/collections/my-r-14/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-14/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 239,
-    "slug": "my-r-15",
-    "title": "MY-R-15",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-15"
-    ],
-    "cover": "assets/outdoor/collections/my-r-15/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-15/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 240,
-    "slug": "my-r-16",
-    "title": "MY-R-16",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-16"
-    ],
-    "cover": "assets/outdoor/collections/my-r-16/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-16/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 241,
-    "slug": "my-r-17",
-    "title": "MY-R-17",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-17"
-    ],
-    "cover": "assets/outdoor/collections/my-r-17/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-17/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 242,
-    "slug": "my-r-18",
-    "title": "MY-R-18",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-18"
-    ],
-    "cover": "assets/outdoor/collections/my-r-18/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-18/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 243,
-    "slug": "my-r-21",
-    "title": "MY-R-21",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-21"
-    ],
-    "cover": "assets/outdoor/collections/my-r-21/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-21/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 244,
-    "slug": "my-r-22",
-    "title": "MY-R-22",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-22"
-    ],
-    "cover": "assets/outdoor/collections/my-r-22/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-22/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 245,
-    "slug": "my-r-23",
-    "title": "MY-R-23",
-    "short": "Кресла и lounge-мебель",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-R-23"
-    ],
-    "cover": "assets/outdoor/collections/my-r-23/view-03.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-r-23/view-03.jpg",
-      "assets/outdoor/collections/my-r-23/view-02.jpg",
-      "assets/outdoor/collections/my-r-23/view-01.jpg"
-    ],
-    "page": 47
-  },
-  {
-    "id": 246,
-    "slug": "my-h-6",
-    "title": "MY-H-6",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-6"
-    ],
-    "cover": "assets/outdoor/collections/my-h-6/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-6/view-02.jpg",
-      "assets/outdoor/collections/my-h-6/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 247,
-    "slug": "my-h-7",
-    "title": "MY-H-7",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-7"
-    ],
-    "cover": "assets/outdoor/collections/my-h-7/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-7/view-01.jpg",
-      "assets/outdoor/collections/my-h-7/view-02.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 248,
-    "slug": "my-h-8",
-    "title": "MY-H-8",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-8"
-    ],
-    "cover": "assets/outdoor/collections/my-h-8/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-8/view-02.jpg",
-      "assets/outdoor/collections/my-h-8/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 249,
-    "slug": "my-h-9",
-    "title": "MY-H-9",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-9"
-    ],
-    "cover": "assets/outdoor/collections/my-h-9/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-9/view-02.jpg",
-      "assets/outdoor/collections/my-h-9/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 250,
-    "slug": "my-h-10",
-    "title": "MY-H-10",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-10"
-    ],
-    "cover": "assets/outdoor/collections/my-h-10/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-10/view-02.jpg",
-      "assets/outdoor/collections/my-h-10/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 251,
-    "slug": "my-h-11",
-    "title": "MY-H-11",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-11"
-    ],
-    "cover": "assets/outdoor/collections/my-h-11/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-11/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 252,
-    "slug": "my-h-12",
-    "title": "MY-H-12",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-12"
-    ],
-    "cover": "assets/outdoor/collections/my-h-12/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-12/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 253,
-    "slug": "my-h-13",
-    "title": "MY-H-13",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-13"
-    ],
-    "cover": "assets/outdoor/collections/my-h-13/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-13/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 254,
-    "slug": "my-h-14",
-    "title": "MY-H-14",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-14"
-    ],
-    "cover": "assets/outdoor/collections/my-h-14/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-14/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 255,
-    "slug": "my-h-15",
-    "title": "MY-H-15",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-15"
-    ],
-    "cover": "assets/outdoor/collections/my-h-15/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-15/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 256,
-    "slug": "my-h-16",
-    "title": "MY-H-16",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-16"
-    ],
-    "cover": "assets/outdoor/collections/my-h-16/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-16/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 257,
-    "slug": "my-h-17",
-    "title": "MY-H-17",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-17"
-    ],
-    "cover": "assets/outdoor/collections/my-h-17/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-17/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 258,
-    "slug": "my-h-18",
-    "title": "MY-H-18",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-18"
-    ],
-    "cover": "assets/outdoor/collections/my-h-18/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-18/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 259,
-    "slug": "my-h-21",
-    "title": "MY-H-21",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-21"
-    ],
-    "cover": "assets/outdoor/collections/my-h-21/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-21/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 260,
-    "slug": "my-h-22",
-    "title": "MY-H-22",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-22"
-    ],
-    "cover": "assets/outdoor/collections/my-h-22/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-22/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 261,
-    "slug": "my-h-23",
-    "title": "MY-H-23",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-23"
-    ],
-    "cover": "assets/outdoor/collections/my-h-23/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-23/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 262,
-    "slug": "my-h-24",
-    "title": "MY-H-24",
-    "short": "Шезлонги и лежаки",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-H-24"
-    ],
-    "cover": "assets/outdoor/collections/my-h-24/view-02.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-h-24/view-02.jpg",
-      "assets/outdoor/collections/my-h-24/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 263,
-    "slug": "my-l-1",
-    "title": "MY-L-1",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-1"
-    ],
-    "cover": "assets/outdoor/collections/my-l-1/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-1/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 264,
-    "slug": "my-l-2",
-    "title": "MY-L-2",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-2"
-    ],
-    "cover": "assets/outdoor/collections/my-l-2/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-2/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 265,
-    "slug": "my-l-3",
-    "title": "MY-L-3",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-3"
-    ],
-    "cover": "assets/outdoor/collections/my-l-3/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-3/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 266,
-    "slug": "my-l-6",
-    "title": "MY-L-6",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-6"
-    ],
-    "cover": "assets/outdoor/collections/my-l-6/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-6/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 267,
-    "slug": "my-l-7",
-    "title": "MY-L-7",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-7"
-    ],
-    "cover": "assets/outdoor/collections/my-l-7/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-7/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 268,
-    "slug": "my-l-9",
-    "title": "MY-L-9",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-9"
-    ],
-    "cover": "assets/outdoor/collections/my-l-9/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-9/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 269,
-    "slug": "my-l-10",
-    "title": "MY-L-10",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-10"
-    ],
-    "cover": "assets/outdoor/collections/my-l-10/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-10/view-01.jpg"
-    ],
-    "page": 48
-  },
-  {
-    "id": 270,
-    "slug": "my-l-16",
-    "title": "MY-L-16",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-16"
-    ],
-    "cover": "assets/outdoor/collections/my-l-16/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-16/view-01.jpg",
-      "assets/outdoor/collections/my-l-16/view-02.jpg"
-    ],
-    "page": 49
-  },
-  {
-    "id": 271,
-    "slug": "my-l-17",
-    "title": "MY-L-17",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-17"
-    ],
-    "cover": "assets/outdoor/collections/my-l-17/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-17/view-01.jpg"
-    ],
-    "page": 49
-  },
-  {
-    "id": 272,
-    "slug": "my-l-18",
-    "title": "MY-L-18",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-18"
-    ],
-    "cover": "assets/outdoor/collections/my-l-18/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-18/view-01.jpg"
-    ],
-    "page": 49
-  },
-  {
-    "id": 273,
-    "slug": "my-l-19",
-    "title": "MY-L-19",
-    "short": "Lounge-комплекты",
-    "material": "Плетение / металл / текстиль",
-    "models": [
-      "MY-L-19"
-    ],
-    "cover": "assets/outdoor/collections/my-l-19/view-01.jpg",
-    "gallery": [
-      "assets/outdoor/collections/my-l-19/view-01.jpg",
-      "assets/outdoor/collections/my-l-19/view-02.jpg"
-    ],
-    "page": 49
   }
 ]

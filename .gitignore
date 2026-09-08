@@ -1,9 +1,13 @@
 .DS_Store
 .vendor/
+.models/
 scripts/
 *.py
 *.restored
 __pycache__/
 *.pdf
+*.log
 _dbg_*
 _page2_*
+assets/outdoor/_*
+assets/outdoor/_*/

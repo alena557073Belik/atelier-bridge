@@ -321,7 +321,7 @@
 }
 
 .catalog-section {
-  padding: 40px 5vw 120px;
+  padding: 14px 5vw 120px;
   background: var(--linen);
 }
 .catalog-grid {
@@ -336,9 +336,15 @@
   min-width: 0;
 }
 .catalog-card-media {
+  position: relative;
   aspect-ratio: 1 / 1.05;
   overflow: hidden;
   background: #8f8677;
+}
+.catalog-card-media > a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .catalog-card-media img {
   width: 100%;
@@ -348,29 +354,86 @@
   filter: saturate(.85) contrast(1.02);
 }
 .catalog-card:hover .catalog-card-media img { transform: scale(1.04); filter: saturate(1); }
-.catalog-card-body {
-  padding: 18px 0 8px;
-  display: grid;
-  gap: 8px;
+.catalog-card-body a {
+  color: inherit;
 }
-.catalog-card-body span {
-  font-size: 11px;
-  letter-spacing: .16em;
+.catalog-card-body a:hover h2 {
+  color: var(--rust);
+}
+.catalog-card-body .catalog-card-meta {
+  margin: 0;
+}
+.catalog-card-body .catalog-card-meta > span {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #6a685c;
+}
+.catalog-card-body > span {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
   color: #6a685c;
 }
 .catalog-card-body h2 {
   font-family: var(--serif);
-  font-size: clamp(22px, 2.4vw, 32px);
+  font-size: 28px;
   font-weight: 400;
   margin: 0;
-  line-height: 1.1;
+  line-height: 1.08;
+  letter-spacing: -.02em;
 }
 .catalog-card-body p {
   margin: 0;
+  font-family: var(--sans);
   font-size: 14px;
-  line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.55;
   color: #4f4e45;
-  max-width: 34ch;
+  max-width: 42ch;
+}
+.outdoor-catalog .catalog-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 8px 0 6px;
+  position: relative;
+}
+.outdoor-catalog .catalog-card-body h2 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.15;
+  letter-spacing: -.01em;
+}
+.outdoor-catalog .catalog-card-body .catalog-card-meta {
+  margin: 0;
+  min-height: 0;
+  align-items: baseline;
+  padding-right: 40px;
+}
+.outdoor-catalog .catalog-card-body .catalog-card-meta > span {
+  line-height: 1.2;
+}
+.outdoor-catalog .catalog-card-body .catalog-card-meta .fav-btn {
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+.outdoor-catalog .catalog-card-body p {
+  max-width: none;
+  width: 100%;
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.65;
+  letter-spacing: 0;
+  color: #2e2d28;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 .catalog-card-body em {
   font-style: normal;
@@ -380,9 +443,127 @@
   margin-top: 8px;
 }
 .catalog-error { font-size: 16px; color: #6a685c; }
+.favorites-page .page-intro .lead { max-width: 42ch; }
+.favorites-count {
+  margin: 0 0 4px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #6a685c;
+}
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 28px;
+}
+.favorites-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  color: inherit;
+}
+.favorites-card-media {
+  aspect-ratio: 2000 / 1476;
+  overflow: hidden;
+  background: #8f8677;
+}
+.favorites-card-media a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.favorites-card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(.88) contrast(1.02);
+  transition: transform 1s cubic-bezier(.16,1,.3,1), filter .5s;
+}
+.favorites-card:hover .favorites-card-media img {
+  transform: scale(1.03);
+  filter: saturate(1);
+}
+.favorites-card-body {
+  padding: 18px 0 0;
+  display: grid;
+  gap: 10px;
+}
+.favorites-card-body h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 400;
+  line-height: 1.08;
+  letter-spacing: -.02em;
+}
+.favorites-card-body h2 a { color: inherit; }
+.favorites-card-body p {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.65;
+  color: #2e2d28;
+}
+.favorites-card-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 4px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(21, 21, 18, .12);
+}
+.favorites-card-actions .fav-open {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.favorites-card-actions .fav-open:hover { color: var(--rust); }
+.favorites-empty {
+  display: grid;
+  gap: 22px;
+  max-width: 360px;
+  padding: 28px 0 60px;
+}
+.favorites-empty p {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: 1.3;
+  color: var(--ink);
+}
+.favorites-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+}
+.favorites-bar {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+  margin-top: 48px;
+  padding: 18px 0 28px;
+  background: linear-gradient(180deg, rgba(216, 208, 191, 0), var(--linen) 28%);
+  display: flex;
+  justify-content: flex-start;
+}
+.favorites-bar[hidden] { display: none; }
+
+@media (max-width: 720px) {
+  .favorites-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
 
 .page-intro {
-  padding: calc(var(--page-pad-top) + 8px) 5vw 48px;
+  padding: 88px 5vw 14px;
   background: var(--linen);
   border-bottom: 1px solid var(--line);
 }
@@ -391,136 +572,190 @@
   font-size: clamp(36px, 6vw, 72px);
   font-weight: 400;
   line-height: 1.02;
-  margin: 12px 0 16px;
+  margin: 8px 0 8px;
   letter-spacing: -.03em;
 }
 .page-intro .lead {
-  max-width: 62ch;
-  margin: 0;
-  font-size: clamp(16px, 2.2vw, 20px);
-  line-height: 1.6;
-  color: #4f4e45;
-}
-
-.outdoor-page-card .catalog-card-media {
-  aspect-ratio: 595 / 842;
-  background: #fff;
-}
-.outdoor-page-card .catalog-card-media img {
-  object-fit: contain;
-  filter: none;
-}
-.outdoor-page-layout {
-  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
-  align-items: start;
-}
-.outdoor-page-view {
-  background: #fff;
-  border: 1px solid rgba(0,0,0,.08);
-  padding: 12px;
-}
-.outdoor-page-view img {
-  display: block;
+  max-width: none;
   width: 100%;
-  height: auto;
-}
-
-/* Outdoor item — main photo + thumb strip (classic product gallery) */
-.outdoor-item .product-media {
-  background-color: #fff;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: min(70vh, 760px);
-}
-.outdoor-item .product-thumbs img {
-  object-fit: contain;
-  background: #fff;
-}
-
-/* Outdoor collection — lookbook layout */
-.outdoor-collection {
-  display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
-  gap: 48px;
-  padding: var(--page-pad-top) 5vw 100px;
-  background: var(--linen);
-  align-items: start;
-}
-.outdoor-collection__visual {
-  display: grid;
-  gap: 28px;
-}
-.outdoor-hero {
-  min-height: min(72vh, 820px);
-  background: #8f8677 center/cover no-repeat;
-}
-.outdoor-lookbook__label {
-  margin: 0 0 14px;
-  font-size: 11px;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: #6a685c;
-}
-.outdoor-lookbook__grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-}
-.outdoor-lookbook__grid button {
-  appearance: none;
-  border: 1px solid transparent;
-  padding: 0;
   margin: 0;
-  background: #fff;
-  aspect-ratio: 1;
+  font-family: var(--sans);
+  font-size: clamp(16px, 1.7vw, 18px);
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0;
+  color: #2e2d28;
+}
+
+.outdoor-catalog .catalog-card-media {
+  aspect-ratio: 2000 / 1476;
+  background: #f4efe4;
+  display: block;
   overflow: hidden;
-  cursor: pointer;
-  opacity: .82;
-  transition: opacity .25s ease, border-color .25s ease;
 }
-.outdoor-lookbook__grid button:hover,
-.outdoor-lookbook__grid button.is-active {
-  opacity: 1;
-  border-color: var(--ink);
-}
-.outdoor-lookbook__grid img {
+.outdoor-catalog .catalog-card-media img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  object-position: center;
+  filter: none;
+}
+.outdoor-catalog .catalog-card:hover .catalog-card-media img {
+  transform: none;
+}
+.sofas-catalog .catalog-card-media,
+.tables-catalog .catalog-card-media {
+  aspect-ratio: 2000 / 1476;
+}
+.sofas-catalog .catalog-card-media img,
+.tables-catalog .catalog-card-media img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Comfortable PDP size — furniture sites typically show ~600–800px view */
+.outdoor-item.product-layout {
+  grid-template-columns: 1fr;
+  justify-items: start;
+}
+.outdoor-item .product-gallery {
+  width: min(100%, 640px);
+  max-width: 640px;
+}
+.outdoor-item .product-gallery-head,
+.outdoor-item .product-media.outdoor-media,
+.outdoor-item .product-thumbs,
+.outdoor-item .product-custom-pitch {
+  width: 100%;
+  max-width: none;
+}
+.outdoor-item .product-gallery-head {
+  margin: 0 0 20px;
+}
+.outdoor-item .product-gallery .specs {
+  margin: 20px 0 0;
+  width: 100%;
+}
+.outdoor-item .product-gallery .cta-row {
+  margin: 20px 0 0;
+  width: 100%;
+}
+.outdoor-item .product-gallery .specs li {
+  font-family: var(--sans);
+  font-size: 14px;
+  letter-spacing: .01em;
+}
+.outdoor-item .product-gallery .specs li span:first-child {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.outdoor-item .product-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 16px;
+  flex-wrap: wrap;
+}
+.outdoor-item .product-title-row h1 {
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+}
+.outdoor-item .product-title-row .fav-text {
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+.outdoor-item .product-gallery-head .eyebrow {
+  margin: 0 0 12px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: #6a685c;
+}
+.outdoor-item .product-gallery-head h1 {
+  font-family: var(--serif);
+  font-size: clamp(28px, 3.8vw, 46px);
+  font-weight: 400;
+  line-height: 1.04;
+  margin: 0 0 16px;
+  letter-spacing: -.03em;
+}
+.outdoor-item .product-title-row h1 {
+  margin: 0;
+}
+.outdoor-item .product-gallery-head .short {
+  font-family: var(--sans);
+  font-size: clamp(15px, 1.4vw, 17px);
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0;
+  margin: 0;
+  color: #2e2d28;
+  max-width: none;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.outdoor-item .product-media.outdoor-media {
+  min-height: 0;
+  aspect-ratio: 2000 / 1476;
+  max-height: min(48vh, 480px);
+  height: auto;
+  background: #f4efe4;
   display: block;
-  background: #fff;
+  overflow: hidden;
 }
-.outdoor-collection__info {
-  position: sticky;
-  top: calc(var(--page-pad-top) - 20px);
+.outdoor-item .product-media.outdoor-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  object-position: center;
+  display: block;
 }
-.outdoor-lightbox {
-  position: fixed;
-  inset: 0;
-  z-index: 200;
-  background: rgba(18, 17, 15, .92);
-  display: grid;
-  place-items: center;
-  padding: 40px;
+.outdoor-item .product-media.outdoor-media img.fit-contain {
+  object-fit: contain !important;
 }
-.outdoor-lightbox[hidden] { display: none; }
-.outdoor-lightbox img {
-  max-width: min(96vw, 1400px);
-  max-height: 90vh;
-  object-fit: contain;
+.outdoor-item .product-media.outdoor-media img.fit-cover {
+  /* Keep proportions — never stretch furniture photos */
+  object-fit: contain !important;
 }
-.outdoor-lightbox__close {
-  position: absolute;
-  top: 20px;
-  right: 24px;
-  border: 0;
-  background: none;
-  color: #fff;
-  font-size: 40px;
-  line-height: 1;
-  cursor: pointer;
-  opacity: .85;
+.outdoor-item .product-thumbs {
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  max-height: 180px;
+  gap: 8px;
+}
+.outdoor-item .product-thumbs img {
+  object-fit: contain !important;
+  background: var(--linen);
+}
+.outdoor-item .product-custom-pitch {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: .01em;
+  color: #4f4e45;
+  -webkit-font-smoothing: antialiased;
+}
+.outdoor-item .product-custom-pitch a {
+  display: inline-block;
+  margin-top: 10px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
 }
 
 @media (max-width: 900px) {
@@ -528,57 +763,97 @@
   .direction-grid,
   .trust-list,
   .product-layout { grid-template-columns: 1fr; }
-  .outdoor-collection { grid-template-columns: 1fr; }
-  .outdoor-collection__info { position: static; }
-  .outdoor-lookbook__grid { grid-template-columns: repeat(2, 1fr); }
-  .outdoor-hero { min-height: 55vw; }
-  .direction-card { min-height: 320px; }
+  .direction-card { min-height: 280px; padding: 28px 22px; }
   .product-media { min-height: 60vw; }
+  .outdoor-item .product-media.outdoor-media {
+    min-height: 0;
+    max-height: min(52vh, 420px);
+    max-width: 100%;
+  }
+  .outdoor-item .product-gallery {
+    width: 100%;
+    max-width: none;
+  }
   .specs li { grid-template-columns: 1fr; gap: 4px; }
-  .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 14px 10px; }
-  .catalog-section { padding: 24px 14px 80px; }
+  .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 16px 12px; }
+  .catalog-section { padding: 12px 14px 80px; }
   .catalog-card-media { aspect-ratio: 1 / 1; }
-  .catalog-card-body { padding: 10px 0 4px; gap: 4px; }
+  .outdoor-catalog .catalog-card-media { aspect-ratio: 2000 / 1476; }
+  .sofas-catalog .catalog-card-media,
+  .tables-catalog .catalog-card-media { aspect-ratio: 2000 / 1476; }
+  .catalog-card-body { padding: 10px 0 4px; gap: 6px; }
+  .outdoor-catalog .catalog-card-body {
+    padding: 6px 0 4px;
+    gap: 1px;
+  }
+  .outdoor-catalog .catalog-card-body .catalog-card-meta .fav-btn {
+    top: 0;
+  }
   .catalog-card-body span { font-size: 9px; letter-spacing: .12em; }
-  .catalog-card-body h2 { font-size: 15px; line-height: 1.15; }
-  .catalog-card-body p { display: none; }
+  .catalog-card-body h2 { font-size: 16px; line-height: 1.15; }
+  .outdoor-catalog .catalog-card-body h2 { font-size: 14px; line-height: 1.15; }
+  .catalog-card-body p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.45;
+    max-width: none;
+    color: #2e2d28;
+  }
+  .outdoor-catalog .catalog-card-body p { font-size: 12px; line-height: 1.45; }
   .catalog-card-body em { font-size: 9px; margin-top: 2px; }
-  .page-intro { padding: calc(var(--page-pad-top) + 4px) 18px 32px; }
-  .page-intro .lead { font-size: 16px; }
+  .page-intro { padding: 16px 18px 12px; }
+  .page-intro .lead { font-size: 15px; line-height: 1.6; }
   .product-layout { gap: 28px; padding: var(--page-pad-top) 18px 72px; }
   .product-info h1 { font-size: clamp(30px, 8vw, 44px); }
   .product-info .short { font-size: 16px; }
   .product-info .full { font-size: 15px; }
-  .outdoor-item .product-media { min-height: 52vw; max-height: 70vh; }
-  .outdoor-item .product-thumbs {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 10px;
-    max-height: none;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding-bottom: 6px;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-  }
-  .outdoor-item .product-thumbs button {
-    flex: 0 0 72px;
-    width: 72px;
-    scroll-snap-align: start;
-  }
+  .outdoor-item .product-gallery-head .short { font-size: 15px; line-height: 1.55; }
+  .outdoor-item .product-custom-pitch { font-size: 14px; line-height: 1.45; }
   .cta-row { flex-direction: column; }
   .cta-row .btn-primary,
   .cta-row .btn-secondary { width: 100%; }
+  .favorites-grid { grid-template-columns: 1fr; }
+  .favorites-bar {
+    left: 12px;
+    right: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 @media (max-width: 560px) {
-  :root { --page-pad-top: 104px; }
-  .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 12px 8px; }
-  .catalog-section { padding: 20px 12px 72px; }
-  .catalog-card-body h2 { font-size: 14px; }
+  :root { --page-pad-top: 100px; }
+  .catalog-grid { grid-template-columns: repeat(2, 1fr); gap: 16px 10px; }
+  .catalog-section { padding: 10px 14px 88px; }
+  .catalog-card-body { gap: 4px; }
+  .outdoor-catalog .catalog-card-body {
+    padding: 5px 0 2px;
+    gap: 1px;
+  }
+  .catalog-card-body h2 { font-size: 15px; line-height: 1.12; }
+  .outdoor-catalog .catalog-card-body h2 { font-size: 13px; line-height: 1.15; }
+  .catalog-card-body p {
+    -webkit-line-clamp: 3;
+    font-size: 11px;
+    line-height: 1.4;
+  }
   .catalog-card-body em { display: none; }
-  .page-intro h1 { font-size: 34px; }
-  .product-layout { padding-top: calc(var(--page-pad-top) + 8px); }
-  .outdoor-item .product-media { min-height: 58vw; }
+  .catalog-card-body .catalog-card-meta > span {
+    font-size: 8px;
+    letter-spacing: .1em;
+  }
+  .page-intro { padding: 12px 16px 10px; }
+  .page-intro h1 { font-size: 32px; }
+  .outdoor-item .product-gallery-head h1 { font-size: 26px; }
+  .outdoor-item .product-gallery-head .short { font-size: 14px; line-height: 1.55; }
+  .outdoor-item .product-title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .product-layout { padding: var(--page-pad-top) 16px calc(72px + env(safe-area-inset-bottom, 0px)); }
   .custom-tags span { font-size: 11px; padding: 7px 10px; }
+  .favorites-card-actions { flex-wrap: wrap; gap: 10px; }
 }

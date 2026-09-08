@@ -1,0 +1,579 @@
+[
+  {
+    "id": 1,
+    "slug": "dd-7374",
+    "title": "Vena",
+    "short": "Круглый стол из мрамора с вращающейся столешницей и каннелированной опорой. Спокойный центр обеденной зоны у большого окна.",
+    "material": "Мрамор / металл",
+    "models": [
+      "D&D 73/74"
+    ],
+    "items": [
+      {
+        "name": "Столешница",
+        "code": "D&D 73/74"
+      },
+      {
+        "name": "Тёмный мрамор",
+        "code": "D&D 73/74"
+      },
+      {
+        "name": "Светлый мрамор",
+        "code": "D&D 73/74"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-7374/hero.jpg?v=dd7374a",
+    "gallery": [
+      "assets/tables/collections/dd-7374/item-01-zoom.jpg?v=dd7374c",
+      "assets/tables/collections/dd-7374/item-02-zoom.jpg?v=dd7374a",
+      "assets/tables/collections/dd-7374/item-03-zoom.jpg?v=dd7374a"
+    ],
+    "galleryFit": "contain",
+    "page": 37
+  },
+  {
+    "id": 2,
+    "slug": "dd-6970",
+    "title": "Pietra",
+    "short": "Обеденный стол из мрамора на двух тёмных цилиндрических опорах. Спокойный центр зала у каменной стены.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "D&D 69/70"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 69/70"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 69/70"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-6970/hero.jpg?v=dd6970a",
+    "gallery": [
+      "assets/tables/collections/dd-6970/item-01-zoom.jpg?v=dd6970b",
+      "assets/tables/collections/dd-6970/item-02-zoom.jpg?v=dd6970a"
+    ],
+    "galleryFit": "contain",
+    "page": 35
+  },
+  {
+    "id": 3,
+    "slug": "dd-6566",
+    "title": "Ambra",
+    "short": "Круглый мраморный стол на янтарных цилиндрах. Тёплый центр столовой у мягкой стены.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "D&D 65/66"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 65/66"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 65/66"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-6566/hero.jpg?v=dd6566a",
+    "gallery": [
+      "assets/tables/collections/dd-6566/item-01-zoom.jpg?v=dd6566b",
+      "assets/tables/collections/dd-6566/item-02-zoom.jpg?v=dd6566b"
+    ],
+    "galleryFit": "contain",
+    "page": 33
+  },
+  {
+    "id": 4,
+    "slug": "dd-5758",
+    "title": "Noce",
+    "short": "Круглый стол из ореха с мраморной вращающейся серединой. Спокойный центр комнаты под тремя светильниками.",
+    "material": "Орех / мрамор",
+    "models": [
+      "D&D 57/58"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 57/58"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 57/58"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-5758/hero.jpg?v=dd5758a",
+    "gallery": [
+      "assets/tables/collections/dd-5758/item-01-zoom.jpg?v=dd5758a",
+      "assets/tables/collections/dd-5758/item-02-zoom.jpg?v=dd5758a"
+    ],
+    "galleryFit": "contain",
+    "page": 29
+  },
+  {
+    "id": 5,
+    "slug": "dd-4950",
+    "title": "Luce",
+    "short": "Светлый дубовый стол на стеклянных опорах. Чёткая столешница и прозрачные ножки у большого окна.",
+    "material": "Дуб / стекло",
+    "models": [
+      "D&D 49/50"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 49/50"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 49/50"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-4950/hero.jpg?v=dd4950a",
+    "gallery": [
+      "assets/tables/collections/dd-4950/item-01-zoom.jpg?v=dd4950a",
+      "assets/tables/collections/dd-4950/item-02-zoom.jpg?v=dd4950a"
+    ],
+    "galleryFit": "contain",
+    "page": 25
+  },
+  {
+    "id": 6,
+    "slug": "dd-4142",
+    "title": "Avorio",
+    "short": "Овальный стол из светлого мрамора на двух опорах. Мягкий центр столовой под линейным светильником.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "D&D 41/42"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 41/42"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 41/42"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-4142/hero.jpg?v=dd4142f",
+    "gallery": [
+      "assets/tables/collections/dd-4142/item-01-zoom.jpg?v=dd4142i",
+      "assets/tables/collections/dd-4142/item-02-zoom.jpg?v=dd4142a"
+    ],
+    "galleryFit": "contain",
+    "page": 21
+  },
+  {
+    "id": 7,
+    "slug": "dd-3738",
+    "title": "Nero",
+    "short": "Круглый стол из чёрного мрамора на колоннах с медными основаниями. Тёмный центр комнаты на светлом ковре.",
+    "material": "Мрамор / медь",
+    "models": [
+      "D&D 37/38"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 37/38"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 37/38"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-3738/hero.jpg?v=dd3738b",
+    "gallery": [
+      "assets/tables/collections/dd-3738/item-01-zoom.jpg?v=dd3738a",
+      "assets/tables/collections/dd-3738/item-02-zoom.jpg?v=dd3738a"
+    ],
+    "galleryFit": "contain",
+    "page": 19
+  },
+  {
+    "id": 8,
+    "slug": "dd-1920",
+    "title": "Tondo",
+    "short": "Круглый стол из мрамора с вращающейся серединой на деревянной опоре. Спокойный центр столовой под купольным светильником.",
+    "material": "Мрамор / орех",
+    "models": [
+      "D&D 19/20"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 19/20"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 19/20"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-1920/hero.jpg?v=dd1920c",
+    "gallery": [
+      "assets/tables/collections/dd-1920/item-01-zoom.jpg?v=dd1920e",
+      "assets/tables/collections/dd-1920/item-02-zoom.jpg?v=dd1920a"
+    ],
+    "galleryFit": "contain",
+    "page": 10
+  },
+  {
+    "id": 9,
+    "slug": "dd-2324",
+    "title": "Sella",
+    "short": "Прямоугольный стол из мрамора на двух деревянных опорах. Светлая столешница и тёплые ножки под волнистым светильником.",
+    "material": "Мрамор / орех",
+    "models": [
+      "D&D 23/24"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 23/24"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 23/24"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-2324/hero.jpg?v=dd2324c",
+    "gallery": [
+      "assets/tables/collections/dd-2324/item-01-zoom.jpg?v=dd2324e",
+      "assets/tables/collections/dd-2324/item-02-zoom.jpg?v=dd2324a"
+    ],
+    "galleryFit": "contain",
+    "page": 12
+  },
+  {
+    "id": 10,
+    "slug": "dd-2728",
+    "title": "Massa",
+    "short": "Прямоугольный стол на мраморном блоке и деревянной опоре. Спокойный центр комнаты у глухой стены.",
+    "material": "Мрамор / орех",
+    "models": [
+      "D&D 27/28"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 27/28"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 27/28"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-2728/hero.jpg?v=dd2728d",
+    "gallery": [
+      "assets/tables/collections/dd-2728/item-01-zoom.jpg?v=dd2728f",
+      "assets/tables/collections/dd-2728/item-02-zoom.jpg?v=dd2728a"
+    ],
+    "galleryFit": "contain",
+    "page": 14
+  },
+  {
+    "id": 11,
+    "slug": "dd-0304",
+    "title": "Bianco",
+    "short": "Круглый стол из светлого мрамора с вращающейся серединой на чёрной опоре. Спокойный центр комнаты у торшера.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "D&D 03/04"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 03/04"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 03/04"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-0304/hero.jpg?v=dd0304a",
+    "gallery": [
+      "assets/tables/collections/dd-0304/item-01-zoom.jpg?v=dd0304a",
+      "assets/tables/collections/dd-0304/item-02-zoom.jpg?v=dd0304a"
+    ],
+    "galleryFit": "contain",
+    "page": 2
+  },
+  {
+    "id": 12,
+    "slug": "dd-1112",
+    "title": "Smeraldo",
+    "short": "Круглый стол из зелёного мрамора на тёмных цилиндрах. Глубокий центр столовой у окна.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "D&D 11/12"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 11/12"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 11/12"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-1112/hero.jpg?v=dd1112a",
+    "gallery": [
+      "assets/tables/collections/dd-1112/item-01-zoom.jpg?v=dd1112a",
+      "assets/tables/collections/dd-1112/item-02-zoom.jpg?v=dd1112a"
+    ],
+    "galleryFit": "contain",
+    "page": 6
+  },
+  {
+    "id": 13,
+    "slug": "dd-1516",
+    "title": "Vino",
+    "short": "Прямоугольный стол с бордовой мраморной серединой и чёрным каркасом. Спокойный центр комнаты на светлом ковре.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "D&D 15/16"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "D&D 15/16"
+      },
+      {
+        "name": "Столешница",
+        "code": "D&D 15/16"
+      }
+    ],
+    "cover": "assets/tables/collections/dd-1516/hero.jpg?v=dd1516a",
+    "gallery": [
+      "assets/tables/collections/dd-1516/item-01-zoom.jpg?v=dd1516a",
+      "assets/tables/collections/dd-1516/item-02-zoom.jpg?v=dd1516a"
+    ],
+    "galleryFit": "contain",
+    "page": 8
+  },
+  {
+    "id": 22,
+    "slug": "ch-1305c",
+    "title": "Piuma",
+    "short": "Круглый стол из мрамора на кожаной опоре. Простой силуэт и спокойный центр для небольшого стола.",
+    "material": "Мрамор / кожа",
+    "models": [
+      "CH-1305"
+    ],
+    "items": [
+      {
+        "name": "Круглый",
+        "code": "CH-1305"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1305c/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1305c/item-01-zoom.jpg?v=chcards26",
+      "assets/tables/collections/ch-1305c/from-cono-cover.jpg?v=chcards26",
+      "assets/tables/collections/ch-1305c/from-cono-01.jpg?v=chcards26",
+      "assets/tables/collections/ch-1305c/from-cono-02.jpg?v=chcards27",
+      "assets/tables/collections/ch-1305c/from-cono-03.jpg?v=chcards26",
+      "assets/tables/collections/ch-1305c/from-cono-04.jpg?v=chcards26"
+    ],
+    "galleryFit": "contain",
+    "page": 99
+  },
+  {
+    "id": 15,
+    "slug": "ch-1118",
+    "title": "Colonna",
+    "short": "Кофейный стол из зелёного мрамора на колоннах. Низкий силуэт и чистая геометрия держат гостиную спокойной.",
+    "material": "Мрамор",
+    "models": [
+      "CH-1118"
+    ],
+    "items": [
+      {
+        "name": "Прямоугольный",
+        "code": "CH-1118"
+      },
+      {
+        "name": "Круглый",
+        "code": "CH-1118"
+      },
+      {
+        "name": "Просторный",
+        "code": "CH-1118"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1118/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1118/item-01-zoom.jpg?v=chcards25",
+      "assets/tables/collections/ch-1118/item-02-zoom.jpg?v=chcards25",
+      "assets/tables/collections/ch-1118/item-03-zoom.jpg?v=chcards25"
+    ],
+    "galleryFit": "contain",
+    "page": 63
+  },
+  {
+    "id": 14,
+    "slug": "ch-1108",
+    "title": "Ebano",
+    "short": "Кофейный стол из чёрного дерева с мраморной столешницей. Складные опоры держат низкий, спокойный силуэт.",
+    "material": "Мрамор / дерево",
+    "models": [
+      "CH-1108"
+    ],
+    "items": [
+      {
+        "name": "Квадратный",
+        "code": "CH-1108"
+      },
+      {
+        "name": "Прямоугольный",
+        "code": "CH-1108"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1108/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1108/item-01-zoom.jpg?v=chcards25",
+      "assets/tables/collections/ch-1108/item-02-zoom.jpg?v=chcards25"
+    ],
+    "galleryFit": "contain",
+    "page": 55
+  },
+  {
+    "id": 17,
+    "slug": "ch-1115",
+    "title": "Croce",
+    "short": "Приставной стол с перекрёстными опорами. Лёгкий силуэт легко встаёт рядом с креслом.",
+    "material": "Дерево",
+    "models": [
+      "CH-1115"
+    ],
+    "items": [
+      {
+        "name": "Компактный",
+        "code": "CH-1115"
+      },
+      {
+        "name": "Высокий",
+        "code": "CH-1115"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1115/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1115/item-01-zoom.jpg?v=chcards26",
+      "assets/tables/collections/ch-1115/item-02-zoom.jpg?v=chcards25"
+    ],
+    "galleryFit": "contain",
+    "page": 121
+  },
+  {
+    "id": 18,
+    "slug": "ch-1112",
+    "title": "Gemma",
+    "short": "Приставной стол с лаковой отделкой и асимметричной опорой. Цвет и скульптурный силуэт держат угол гостиной.",
+    "material": "Лак",
+    "models": [
+      "CH-1112"
+    ],
+    "items": [
+      {
+        "name": "Чёрный",
+        "code": "CH-1112"
+      },
+      {
+        "name": "Синий",
+        "code": "CH-1112"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1112/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1112/item-01-zoom.jpg?v=chcards26",
+      "assets/tables/collections/ch-1112/item-02-zoom.jpg?v=chcards26"
+    ],
+    "galleryFit": "contain",
+    "page": 117
+  },
+  {
+    "id": 20,
+    "slug": "ch-1311",
+    "title": "Fusto",
+    "short": "Обеденный стол на скульптурных конических опорах. Шпон и мрамор задают спокойный, собранный силуэт.",
+    "material": "Дерево / мрамор",
+    "models": [
+      "CH-1311"
+    ],
+    "items": [
+      {
+        "name": "Светлое дерево",
+        "code": "CH-1311"
+      },
+      {
+        "name": "Чёрный мрамор",
+        "code": "CH-1311"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1311/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1311/item-01-zoom.jpg?v=chcards27",
+      "assets/tables/collections/ch-1311/item-02-zoom.jpg?v=chcards26"
+    ],
+    "galleryFit": "contain",
+    "page": 107
+  },
+  {
+    "id": 21,
+    "slug": "ch-1309",
+    "title": "Arco",
+    "short": "Обеденный стол из тёмного мрамора на изогнутых опорах. Овальная столешница держит центр комнаты спокойным.",
+    "material": "Мрамор",
+    "models": [
+      "CH-1309"
+    ],
+    "items": [
+      {
+        "name": "Фасад",
+        "code": "CH-1309"
+      },
+      {
+        "name": "Ракурс",
+        "code": "CH-1309"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1309/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1309/item-01-zoom.jpg?v=chcards26",
+      "assets/tables/collections/ch-1309/item-02-zoom.jpg?v=chcards26"
+    ],
+    "galleryFit": "contain",
+    "page": 101
+  },
+  {
+    "id": 16,
+    "slug": "ch-1119",
+    "title": "Raggio",
+    "short": "Кофейный стол из светлого дерева с радиальным шпоном. Мягкие линии и низкий силуэт держат гостиную спокойной.",
+    "material": "Дерево",
+    "models": [
+      "CH-1119"
+    ],
+    "items": [
+      {
+        "name": "Компактный",
+        "code": "CH-1119"
+      },
+      {
+        "name": "Просторный",
+        "code": "CH-1119"
+      }
+    ],
+    "cover": "assets/tables/collections/ch-1119/hero.jpg?v=chcards26",
+    "gallery": [
+      "assets/tables/collections/ch-1119/item-01-zoom.jpg?v=chcards25",
+      "assets/tables/collections/ch-1119/item-02-zoom.jpg?v=chcards25"
+    ],
+    "galleryFit": "contain",
+    "page": 66
+  }
+]

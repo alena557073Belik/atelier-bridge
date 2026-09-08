@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "slug": "sf-m1048",
+    "title": "Marea",
+    "short": "Модульный кожаный диван с низкой посадкой — спокойная линия у большого окна. Секции, пуфы и тёмный стол собирают гостиную в цельный, тихий объём.",
+    "material": "Кожа / металл",
+    "models": [
+      "SF-M1048"
+    ],
+    "items": [
+      {
+        "name": "Секционный диван",
+        "code": "SF-M1048"
+      },
+      {
+        "name": "Вид с другой стороны",
+        "code": "SF-M1048"
+      }
+    ],
+    "cover": "assets/sofas/collections/sf-m1048/hero.jpg?v=sfmq04",
+    "gallery": [
+      "assets/sofas/collections/sf-m1048/item-01-zoom.jpg?v=sfmq04",
+      "assets/sofas/collections/sf-m1048/item-02-zoom.jpg?v=sfmq04"
+    ],
+    "galleryFit": "contain",
+    "page": 8
+  },
+  {
+    "id": 2,
+    "slug": "sf-m1107",
+    "title": "Siena",
+    "short": "Модульный диван тёплой кожи — мягкие блоки складываются в длинную линию у окна. Крупная посадка и низкий силуэт держат гостиную спокойной и собранной.",
+    "material": "Кожа",
+    "models": [
+      "SF-M1107"
+    ],
+    "items": [
+      {
+        "name": "Крупный план",
+        "code": "SF-M1107"
+      },
+      {
+        "name": "Фрагмент",
+        "code": "SF-M1107"
+      },
+      {
+        "name": "Модуль",
+        "code": "SF-M1107"
+      }
+    ],
+    "cover": "assets/sofas/collections/sf-m1107/hero.jpg?v=sfmq04",
+    "gallery": [
+      "assets/sofas/collections/sf-m1107/item-01-zoom.jpg?v=sfmq04",
+      "assets/sofas/collections/sf-m1107/item-02-zoom.jpg?v=sfmq04",
+      "assets/sofas/collections/sf-m1107/item-03-zoom.jpg?v=sfmq04"
+    ],
+    "galleryFit": "contain",
+    "page": 2
+  },
+  {
+    "id": 3,
+    "slug": "sf-m1103",
+    "title": "Lino",
+    "short": "Светлый модульный диван с фактурой льна — низкая линия и широкая оттоманка собирают гостиную в спокойный, открытый объём.",
+    "material": "Ткань / дерево",
+    "models": [
+      "SF-M1103"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-m1103/hero.jpg?v=sfmq01",
+    "gallery": [],
+    "galleryFit": "contain",
+    "page": 25
+  },
+  {
+    "id": 4,
+    "slug": "sf-m1105",
+    "title": "Onda",
+    "short": "Изогнутый диван тёмной ткани — мягкая дуга и низкая спинка держат гостиную собранной, без лишней геометрии.",
+    "material": "Ткань",
+    "models": [
+      "SF-M1105"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-m1105/hero.jpg?v=sfmq01",
+    "gallery": [],
+    "galleryFit": "contain",
+    "page": 26
+  }
+]

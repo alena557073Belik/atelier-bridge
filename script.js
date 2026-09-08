@@ -113,6 +113,10 @@ if (menuButton && menu) {
     if (!isOpen) closeMenu();
   });
 
+  menu.addEventListener("click", (event) => {
+    if (event.target === menu) closeMenu();
+  });
+
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => closeMenu());
   });
@@ -327,33 +331,86 @@ document.querySelectorAll(".filter-bar button").forEach((button) => {
 });
 
 if (!reducedMotion && window.matchMedia("(pointer:fine)").matches) {
-  const dot = document.querySelector(".cursor-dot");
-  const ring = document.querySelector(".cursor-ring");
-  if (dot && ring) {
-    let mouseX = -50;
-    let mouseY = -50;
-    let ringX = -50;
-    let ringY = -50;
+  let dot = document.querySelector(".cursor-dot");
+  let ring = document.querySelector(".cursor-ring");
 
-    window.addEventListener("mousemove", (event) => {
-      mouseX = event.clientX;
-      mouseY = event.clientY;
-      dot.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0) translate(-50%, -50%)`;
-    });
-
-    const animateCursor = () => {
-      ringX += (mouseX - ringX) * 0.14;
-      ringY += (mouseY - ringY) * 0.14;
-      ring.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%)`;
-      requestAnimationFrame(animateCursor);
-    };
-    animateCursor();
-
-    document.querySelectorAll("a, button, input, label").forEach((item) => {
-      item.addEventListener("mouseenter", () => ring.classList.add("active"));
-      item.addEventListener("mouseleave", () => ring.classList.remove("active"));
-    });
+  if (!dot) {
+    dot = document.createElement("div");
+    dot.className = "cursor-dot";
+    dot.setAttribute("aria-hidden", "true");
   }
+  if (!ring) {
+    ring = document.createElement("div");
+    ring.className = "cursor-ring";
+    ring.setAttribute("aria-hidden", "true");
+  }
+  document.documentElement.append(dot, ring);
+
+  const wide = window.matchMedia("(min-width: 901px)");
+  const setEnabled = () => {
+    document.documentElement.classList.toggle("has-cursor", wide.matches);
+    if (!wide.matches) {
+      dot.classList.remove("is-on");
+      ring.classList.remove("is-on");
+    }
+  };
+  setEnabled();
+  wide.addEventListener("change", setEnabled);
+
+  let mouseX = 0;
+  let mouseY = 0;
+  let ringX = 0;
+  let ringY = 0;
+  let placed = false;
+  const interactive = "a, button, input, label, select, textarea, .nav-trigger, .fav-btn, .fav-text, .fav-remove, .menu-toggle, .header-search";
+
+  const place = (x, y, snap) => {
+    mouseX = x;
+    mouseY = y;
+    if (snap || !placed) {
+      ringX = x;
+      ringY = y;
+      placed = true;
+    }
+    dot.style.transform = `translate3d(${x}px, ${y}px, 0) translate(-50%, -50%)`;
+  };
+
+  const show = (on) => {
+    if (!wide.matches) return;
+    dot.classList.toggle("is-on", on);
+    ring.classList.toggle("is-on", on);
+  };
+
+  window.addEventListener(
+    "pointermove",
+    (event) => {
+      if (event.pointerType && event.pointerType !== "mouse") return;
+      place(event.clientX, event.clientY, false);
+      show(true);
+    },
+    { passive: true }
+  );
+
+  document.addEventListener("pointerleave", () => show(false));
+  window.addEventListener("blur", () => show(false));
+
+  const animateCursor = () => {
+    ringX += (mouseX - ringX) * 0.55;
+    ringY += (mouseY - ringY) * 0.55;
+    ring.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%)`;
+    requestAnimationFrame(animateCursor);
+  };
+  animateCursor();
+
+  document.addEventListener("mouseover", (event) => {
+    if (event.target.closest(interactive)) ring.classList.add("active");
+  });
+  document.addEventListener("mouseout", (event) => {
+    const from = event.target.closest(interactive);
+    if (!from) return;
+    const to = event.relatedTarget && event.relatedTarget.closest?.(interactive);
+    if (!to) ring.classList.remove("active");
+  });
 
   const parallaxItems = document.querySelectorAll("[data-parallax]");
   window.addEventListener(

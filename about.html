@@ -2,35 +2,46 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>О нас — Atelier Bridge</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Prata&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=51">
-  <link rel="stylesheet" href="pages.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=88">
+  <link rel="stylesheet" href="pages.css?v=castgal03">
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="index.html"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M4 39 24 7l20 32M12 26h24M16 39l8-13 8 13"/></svg><span>ATELIER<br>BRIDGE</span></a>
+    <div class="header-bar">
     <nav class="desktop-catalog" aria-label="Разделы">
-      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Мебель</button><div class="dropdown columns-3"><a href="product.html">Диваны</a><a href="product.html">Стулья</a><a href="product.html">Кровати</a><a href="product.html">Шезлонги</a><a href="product.html">Столы</a><a href="outdoor.html">Уличная мебель</a><a href="product.html">Кабинеты</a></div></div>
-      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Декор</button><div class="dropdown columns-2"><a href="product.html">Вазы</a><a href="product.html">Арт-объекты</a></div></div>
-      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Свет</button><div class="dropdown columns-3"><a href="product.html">Люстры</a><a href="product.html">Светильники</a><a href="product.html">Выключатели</a></div></div>
-      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Посуда</button><div class="dropdown columns-3"><a href="product.html">Тарелки</a><a href="product.html">Чашки</a><a href="product.html">Приборы</a><a href="product.html">Бокалы</a><a href="product.html">Сервизы</a></div></div>
+      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Мебель</button><div class="dropdown columns-3"><a href="sofas.html">Диваны</a><a href="section.html?s=chairs">Стулья</a><a href="section.html?s=beds">Кровати</a><a href="section.html?s=loungers">Шезлонги</a><a href="tables.html">Столы</a><a href="outdoor.html">Уличная мебель</a><a href="section.html?s=cabinets">Кабинеты</a></div></div>
+      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Декор</button><div class="dropdown columns-2"><a href="section.html?s=vases">Вазы</a><a href="section.html?s=art">Арт-объекты</a></div></div>
+      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Свет</button><div class="dropdown columns-3"><a href="section.html?s=chandeliers">Люстры</a><a href="section.html?s=lamps">Светильники</a><a href="section.html?s=switches">Выключатели</a></div></div>
+      <div class="nav-item"><button class="nav-trigger" type="button" aria-expanded="false">Посуда</button><div class="dropdown columns-3"><a href="section.html?s=plates">Тарелки</a><a href="section.html?s=cups">Чашки</a><a href="section.html?s=cutlery">Приборы</a><a href="section.html?s=glasses">Бокалы</a><a href="section.html?s=sets">Сервизы</a></div></div>
     </nav>
     <nav class="desktop-links"><a href="business.html">Для бизнеса</a><a href="custom.html">Изделия</a><a href="about.html">О нас</a><a href="contacts.html">Контакты</a></nav>
+    <button class="header-search" type="button" aria-label="Поиск" aria-expanded="false" aria-controls="site-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16.2 16.2 4.3 4.3"/></svg><span class="header-search-label">Поиск</span></button><a class="header-fav" href="favorites.html" aria-label="Избранное"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.2S4 14.8 4 9.5A4.2 4.2 0 0 1 12 6.6a4.2 4.2 0 0 1 8 2.9c0 5.3-8 10.7-8 10.7Z"/></svg><span class="header-fav-label">Избранное</span><span class="header-fav-count" hidden>0</span></a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu"><span>Меню</span><i></i></button>
-    <nav id="main-menu" class="main-menu" aria-hidden="true">
-      <div class="mobile-service-links">
-        <a href="business.html">Для бизнеса</a>
-        <a href="custom.html">Индивидуальные изделия</a>
-        <a href="about.html">О нас</a>
-        <a href="contacts.html">Контакты</a>
+    </div></header>
+<nav id="main-menu" class="main-menu" aria-label="Меню" aria-hidden="true">
+      <div class="menu-sheet">
+        <a class="menu-link menu-link--fav" href="favorites.html">
+          <span class="menu-link-main">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.2S4 14.8 4 9.5A4.2 4.2 0 0 1 12 6.6a4.2 4.2 0 0 1 8 2.9c0 5.3-8 10.7-8 10.7Z"/></svg>
+            Избранное
+          </span>
+          <span class="header-fav-count" hidden>0</span>
+        </a>
+        <div class="menu-divider" aria-hidden="true"></div>
+        <a class="menu-link" href="business.html">Для бизнеса</a>
+        <a class="menu-link" href="custom.html">Индивидуальные изделия</a>
+        <a class="menu-link" href="about.html">О нас</a>
+        <a class="menu-link menu-link--cta" href="contacts.html">Контакты</a>
       </div>
     </nav>
-  </header>
+
 
   <main>
     <section class="page-hero">
@@ -47,7 +58,6 @@
           <li>Свой контроль качества на производстве</li>
           <li>Производство по готовым чертежам и размерам клиента</li>
           <li>Опыт комплектации коммерческих объектов</li>
-          <li>Гарантия 5 лет на конструкции</li>
         </ul>
       </div>
 
@@ -67,6 +77,8 @@
       </div>
     </section>
   </main>
-  <script src="script.js?v=51"></script>
+  <script src="script.js?v=54"></script>
+  <script src="favorites.js?v=2"></script>
+  <script src="search.js?v=2"></script>
 </body>
 </html>
