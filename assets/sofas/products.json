@@ -1,6 +1,151 @@
 [
   {
     "id": 1,
+    "slug": "sf-filo",
+    "title": "Filo",
+    "short": "Кожаный диван с контрастной строчкой — спокойный прямоугольный силуэт для гостиной.",
+    "material": "Кожа",
+    "models": [
+      "SF-FILO"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-filo/hero.jpg?v=sf34520",
+    "gallery": [
+      "assets/sofas/collections/sf-filo/item-01-zoom.jpg?v=sf34520",
+      "assets/sofas/collections/sf-filo/item-02-zoom.jpg?v=sf34520"
+    ],
+    "galleryFit": "contain",
+    "page": 3
+  },
+  {
+    "id": 2,
+    "slug": "sf-panca",
+    "title": "Panca",
+    "short": "Низкая скамья с ящиками — кожаные сиденья и деревянный центр собирают прихожую или гостиную.",
+    "material": "Кожа / дерево",
+    "models": [
+      "SF-PANCA"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-panca/hero.jpg?v=sf34520",
+    "gallery": [
+      "assets/sofas/collections/sf-panca/item-01-zoom.jpg?v=sf34520",
+      "assets/sofas/collections/sf-panca/item-02-zoom.jpg?v=sf34520"
+    ],
+    "galleryFit": "contain",
+    "page": 4
+  },
+  {
+    "id": 3,
+    "slug": "sf-nodo",
+    "title": "Nodo",
+    "short": "Двухместный диван на чёрном каркасе — мягкий объём держится шнуровкой по краю.",
+    "material": "Кожа / металл",
+    "models": [
+      "SF-NODO"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-nodo/hero.jpg?v=sf34529",
+    "gallery": [
+      "assets/sofas/collections/sf-nodo/item-03-zoom.jpg?v=sf34523",
+      "assets/sofas/collections/sf-nodo/item-01-zoom.jpg?v=sf34523",
+      "assets/sofas/collections/sf-nodo/item-02-zoom.jpg?v=sf34523"
+    ],
+    "galleryFit": "contain",
+    "page": 5
+  },
+  {
+    "slug": "sf-canna",
+    "title": "Canna",
+    "short": "Модульный диван с плетёной спинкой и кожаным боксом — линия для гостиной с тёплым акцентом.",
+    "material": "Ткань / кожа / ротанг",
+    "models": [
+      "SF-CANNA"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-canna/hero.jpg?v=sf6789y",
+    "gallery": [
+      "assets/sofas/collections/sf-canna/item-01-zoom.jpg?v=sf6789g",
+      "assets/sofas/collections/sf-canna/item-02-zoom.jpg?v=sf6789g"
+    ],
+    "galleryFit": "contain",
+    "page": 6,
+    "id": 4
+  },
+  {
+    "slug": "sf-riga",
+    "title": "Riga",
+    "short": "Кожаная линейка с контрастной строчкой: двух- и трёхместные, угловой и крупные планы шва.",
+    "material": "Кожа / дерево",
+    "models": [
+      "SF-RIGA"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-riga/hero.jpg?v=sf6789k",
+    "gallery": [
+      "assets/sofas/collections/sf-riga/item-01-zoom.jpg?v=sf6789g",
+      "assets/sofas/collections/sf-riga/item-02-zoom.jpg?v=sf6789g",
+      "assets/sofas/collections/sf-riga/item-03-zoom.jpg?v=sf6789g",
+      "assets/sofas/collections/sf-riga/item-04-zoom.jpg?v=sf6789g"
+    ],
+    "galleryFit": "contain",
+    "page": 7,
+    "id": 5
+  },
+  {
+    "slug": "sf-quadro",
+    "title": "Quadro",
+    "short": "Низкий диван на тёмном каркасе — кремовые подушки и контрастные валики собирают спокойную гостиную.",
+    "material": "Ткань / дерево",
+    "models": [
+      "SF-QUADRO"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-quadro/hero.jpg?v=sf13133p",
+    "gallery": [
+      "assets/sofas/collections/sf-quadro/item-01-zoom.jpg?v=sf13133p"
+    ],
+    "galleryFit": "contain",
+    "page": 131,
+    "id": 6
+  },
+  {
+    "slug": "sf-nube",
+    "title": "Nube",
+    "short": "Букле с кожаными боковинами — мягкий объём, ремни по углам и металлические ножки.",
+    "material": "Ткань / кожа / металл",
+    "models": [
+      "SF-NUBE"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-nube/hero.jpg?v=sf13133au",
+    "gallery": [
+      "assets/sofas/collections/sf-nube/item-01-zoom.jpg?v=sf13133ap",
+      "assets/sofas/collections/sf-nube/item-02-zoom.jpg?v=sf13133ap"
+    ],
+    "galleryFit": "contain",
+    "page": 132,
+    "id": 7
+  },
+  {
+    "slug": "sf-canale",
+    "title": "Canale",
+    "short": "Серый кожаный диван с горизонтальной стёжкой — чёткий силуэт на тонких металлических ножках.",
+    "material": "Кожа / металл",
+    "models": [
+      "SF-CANALE"
+    ],
+    "items": [],
+    "cover": "assets/sofas/collections/sf-canale/hero.jpg?v=sf13133p",
+    "gallery": [
+      "assets/sofas/collections/sf-canale/item-01-zoom.jpg?v=sf13133p"
+    ],
+    "galleryFit": "contain",
+    "page": 133,
+    "id": 8
+  },
+  {
+    "id": 9,
     "slug": "sf-m1048",
     "title": "Marea",
     "short": "Модульный кожаный диван с низкой посадкой — спокойная линия у большого окна. Секции, пуфы и тёмный стол собирают гостиную в цельный, тихий объём.",
@@ -27,7 +172,7 @@
     "page": 8
   },
   {
-    "id": 2,
+    "id": 10,
     "slug": "sf-m1107",
     "title": "Siena",
     "short": "Модульный диван тёплой кожи — мягкие блоки складываются в длинную линию у окна. Крупная посадка и низкий силуэт держат гостиную спокойной и собранной.",
@@ -59,7 +204,7 @@
     "page": 2
   },
   {
-    "id": 3,
+    "id": 11,
     "slug": "sf-m1103",
     "title": "Lino",
     "short": "Светлый модульный диван с фактурой льна — низкая линия и широкая оттоманка собирают гостиную в спокойный, открытый объём.",
@@ -74,7 +219,7 @@
     "page": 25
   },
   {
-    "id": 4,
+    "id": 12,
     "slug": "sf-m1105",
     "title": "Onda",
     "short": "Изогнутый диван тёмной ткани — мягкая дуга и низкая спинка держат гостиную собранной, без лишней геометрии.",

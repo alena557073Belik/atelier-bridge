@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Prata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=88">
-  <link rel="stylesheet" href="pages.css?v=tables01">
+  <link rel="stylesheet" href="pages.css?v=zoom02">
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -74,8 +74,9 @@
   </main>
 
   <script src="script.js?v=54"></script>
-  <script src="favorites.js?v=2"></script>
+  <script src="favorites.js?v=3"></script>
   <script src="search.js?v=2"></script>
+  <script src="media-zoom.js?v=2"></script>
   <script>
     const params = new URLSearchParams(location.search);
     const slug = params.get("slug");
@@ -92,7 +93,7 @@
       thumbs.querySelectorAll("button").forEach((b) => b.classList.toggle("is-active", b === btn));
     }
 
-    fetch("assets/tables/products.json?v=chcards27")
+    fetch("assets/tables/products.json?v=tb7879n")
       .then((r) => r.json())
       .then((products) => {
         const p = (slug && products.find((x) => x.slug === slug)) || products[0];
@@ -124,6 +125,7 @@
         const buttons = [...thumbs.querySelectorAll("button")];
         buttons.forEach((btn, i) => btn.addEventListener("click", () => setMain(images[i], btn, i)));
         setMain(images[0], buttons[0], 0);
+        window.AtelierMediaZoom.bindProductPage(document.getElementById("item-root"));
       })
       .catch(() => {
         document.getElementById("item-title").textContent = "Не удалось загрузить";

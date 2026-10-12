@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Prata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=88">
-  <link rel="stylesheet" href="pages.css?v=intro02">
+  <link rel="stylesheet" href="pages.css?v=zoom03">
 </head>
 <body class="favorites-page">
   <div class="grain" aria-hidden="true"></div>
@@ -51,11 +51,8 @@
 
   <section class="catalog-section">
     <div class="favorites-grid" id="favorites-grid"></div>
-    <div class="favorites-empty" id="favorites-empty" hidden>
+    <div class="favorites-empty" id="favorites-empty">
       <p>Пока здесь пусто</p>
-      <div class="favorites-actions">
-        <a class="btn-primary" href="outdoor.html">Смотреть уличную мебель</a>
-      </div>
     </div>
     <div class="favorites-bar" id="favorites-cta" hidden>
       <a class="btn-primary" id="favorites-request" href="contacts.html">Запросить стоимость по подборке</a>
@@ -63,7 +60,8 @@
   </section>
 
   <script src="script.js?v=54"></script>
-  <script src="favorites.js?v=2"></script>
+  <script src="favorites.js?v=3"></script>
+  <script src="media-zoom.js?v=2"></script>
   <script src="search.js?v=2"></script>
   <script>
     const grid = document.getElementById("favorites-grid");
@@ -71,14 +69,21 @@
     const cta = document.getElementById("favorites-cta");
     const request = document.getElementById("favorites-request");
 
+    const CATALOGS = [
+      { key: "tables", url: "assets/tables/products.json?v=tb7879n", item: "tables-item.html" },
+      { key: "sofas", url: "assets/sofas/products.json?v=sf13133au", item: "sofas-item.html" },
+      { key: "outdoor", url: "assets/outdoor/products.json?v=odgal05", item: "outdoor-item.html" },
+    ];
+
     function cardHtml(p) {
       const cover = p.cover || (p.gallery && p.gallery[0]) || "";
-      const href = `outdoor-item.html?slug=${encodeURIComponent(p.slug)}`;
+      const href = `${p._itemPage}?slug=${encodeURIComponent(p.slug)}`;
+      const media = cover
+        ? `<a href="${href}"><img src="${cover}" alt="${p.title}" loading="lazy"></a>`
+        : `<a href="${href}" class="favorites-card-media-empty" aria-label="${p.title}"></a>`;
       return `
         <article class="favorites-card">
-          <div class="favorites-card-media">
-            <a href="${href}"><img src="${cover}" alt="${p.title}" loading="lazy"></a>
-          </div>
+          <div class="favorites-card-media">${media}</div>
           <div class="favorites-card-body">
             <h2><a href="${href}">${p.title}</a></h2>
             <p>${p.short || ""}</p>
@@ -90,11 +95,15 @@
         </article>`;
     }
 
-    function render(products) {
+    function render(bySlug) {
       const slugs = window.AtelierFavorites.list();
-      const bySlug = Object.fromEntries(products.map((p) => [p.slug, p]));
-      const items = slugs.map((s) => bySlug[s]).filter(Boolean);
+      // Drop stale slugs that no longer exist in any catalog
+      const valid = slugs.filter((s) => bySlug[s]);
+      if (valid.length !== slugs.length) {
+        window.AtelierFavorites.replace(valid);
+      }
 
+      const items = valid.map((s) => bySlug[s]);
       window.AtelierFavorites.updateHeader();
 
       if (!items.length) {
@@ -108,15 +117,29 @@
       cta.hidden = false;
       grid.innerHTML = items.map(cardHtml).join("");
       window.AtelierFavorites.syncButtons(grid);
+      window.AtelierMediaZoom.bindCatalog(grid);
       const names = items.map((p) => p.title).join(", ");
       request.href = `contacts.html?item=${encodeURIComponent(names)}`;
     }
 
-    fetch("assets/outdoor/products.json?v=odgal05")
-      .then((r) => r.json())
-      .then((products) => {
-        render(products);
-        window.addEventListener("ab:favorites", () => render(products));
+    Promise.all(
+      CATALOGS.map((c) =>
+        fetch(c.url)
+          .then((r) => r.json())
+          .then((list) =>
+            list.map((p) => ({
+              ...p,
+              _catalog: c.key,
+              _itemPage: c.item,
+            }))
+          )
+      )
+    )
+      .then((groups) => {
+        const all = groups.flat();
+        const bySlug = Object.fromEntries(all.map((p) => [p.slug, p]));
+        render(bySlug);
+        window.addEventListener("ab:favorites", () => render(bySlug));
       })
       .catch(() => {
         empty.hidden = false;

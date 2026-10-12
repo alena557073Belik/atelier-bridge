@@ -2,14 +2,10 @@
   "source": "RH铝合金家具价格产品册.pdf",
   "path": "/Users/alena/Desktop/RH铝合金家具价格产品册.pdf",
   "md5": "5126ae2ae6e030b5aaa30fda675956bc",
-  "bytes": 45220408,
-  "modified": "2026-08-31T14:21:25",
   "pages_used": [
     1,
     2
   ],
-  "render": "page_clip_only",
-  "cards": 1,
-  "photos": 9,
-  "built": "2026-08-31T14:35:55"
+  "render": "page2_contain_wall_fill",
+  "built": "2026-09-05T18:56:58"
 }

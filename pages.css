@@ -324,6 +324,37 @@
   padding: 14px 5vw 120px;
   background: var(--linen);
 }
+.tables-collection-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin: 0 0 28px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.tables-collection-btn {
+  appearance: none;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid transparent;
+  margin: 0;
+  padding: 6px 0 8px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #6a685c;
+  cursor: pointer;
+  transition: color .2s ease, border-color .2s ease;
+}
+.tables-collection-btn:hover {
+  color: var(--ink);
+}
+.tables-collection-btn.is-active {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
 .catalog-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -350,10 +381,17 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 1s cubic-bezier(.16,1,.3,1);
+  transition: transform .7s cubic-bezier(.16,1,.3,1), filter .45s ease;
   filter: saturate(.85) contrast(1.02);
+  will-change: transform;
+  transform-origin: center center;
 }
-.catalog-card:hover .catalog-card-media img { transform: scale(1.04); filter: saturate(1); }
+.catalog-card:hover .catalog-card-media img { transform: scale(1.12); filter: saturate(1); }
+@media (hover: hover) and (pointer: fine) {
+  .catalog-card-media.az-catalog-media:hover img {
+    transition: transform .12s ease-out, filter .45s ease;
+  }
+}
 .catalog-card-body a {
   color: inherit;
 }
@@ -469,6 +507,12 @@
   overflow: hidden;
   background: #8f8677;
 }
+.favorites-card-media-empty {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #cfc6b5;
+}
 .favorites-card-media a {
   display: block;
   width: 100%;
@@ -479,11 +523,18 @@
   height: 100%;
   object-fit: cover;
   filter: saturate(.88) contrast(1.02);
-  transition: transform 1s cubic-bezier(.16,1,.3,1), filter .5s;
+  transition: transform .7s cubic-bezier(.16,1,.3,1), filter .45s ease;
+  transform-origin: center center;
+  will-change: transform;
 }
 .favorites-card:hover .favorites-card-media img {
-  transform: scale(1.03);
+  transform: scale(1.12);
   filter: saturate(1);
+}
+@media (hover: hover) and (pointer: fine) {
+  .favorites-card-media.az-catalog-media:hover img {
+    transition: transform .12s ease-out, filter .45s ease;
+  }
 }
 .favorites-card-body {
   padding: 18px 0 0;
@@ -600,8 +651,11 @@
   object-position: center;
   filter: none;
 }
-.outdoor-catalog .catalog-card:hover .catalog-card-media img {
-  transform: none;
+.outdoor-catalog .catalog-card:hover .catalog-card-media img,
+.sofas-catalog .catalog-card:hover .catalog-card-media img,
+.tables-catalog .catalog-card:hover .catalog-card-media img {
+  transform: scale(1.1);
+  filter: none;
 }
 .sofas-catalog .catalog-card-media,
 .tables-catalog .catalog-card-media {
@@ -709,6 +763,10 @@
   display: block;
   overflow: hidden;
 }
+/* Sofas: same linen as page — cover letterbox blends with page */
+.sofas-item .product-media.outdoor-media {
+  background: #f4efe4;
+}
 .outdoor-item .product-media.outdoor-media img {
   width: 100%;
   height: 100%;
@@ -731,6 +789,14 @@
 .outdoor-item .product-thumbs img {
   object-fit: contain !important;
   background: var(--linen);
+}
+/* Sofas: thumbs match photo aspect — never squash into squares */
+.sofas-item .product-thumbs button {
+  aspect-ratio: 2000 / 1476;
+}
+.sofas-item .product-thumbs img {
+  object-fit: contain !important;
+  background: #f4efe4;
 }
 .outdoor-item .product-custom-pitch {
   margin: 20px 0 0;
@@ -856,4 +922,181 @@
   .product-layout { padding: var(--page-pad-top) 16px calc(72px + env(safe-area-inset-bottom, 0px)); }
   .custom-tags span { font-size: 11px; padding: 7px 10px; }
   .favorites-card-actions { flex-wrap: wrap; gap: 10px; }
+}
+
+/* ——— Media zoom (product + catalog) ——— */
+.az-media-frame {
+  position: relative;
+  cursor: zoom-in;
+  overflow: hidden;
+  touch-action: manipulation;
+}
+.az-media-frame img {
+  transform-origin: center center;
+  transition: transform .18s ease-out;
+  will-change: transform;
+}
+.az-media-frame.is-zooming img {
+  transition: none;
+}
+.az-zoom-hint {
+  position: absolute;
+  left: 14px;
+  bottom: 12px;
+  z-index: 2;
+  margin: 0;
+  padding: 7px 10px;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: rgba(244, 239, 228, .88);
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity .25s ease, transform .25s ease;
+}
+.az-media-frame:hover .az-zoom-hint,
+.az-media-frame:focus-visible .az-zoom-hint {
+  opacity: 1;
+  transform: none;
+}
+@media (hover: none) {
+  .az-zoom-hint {
+    opacity: .9;
+    transform: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .az-media-frame img,
+  .catalog-card-media img,
+  .favorites-card-media img {
+    transition: none;
+  }
+  .catalog-card:hover .catalog-card-media img,
+  .favorites-card:hover .favorites-card-media img,
+  .outdoor-catalog .catalog-card:hover .catalog-card-media img,
+  .sofas-catalog .catalog-card:hover .catalog-card-media img,
+  .tables-catalog .catalog-card:hover .catalog-card-media img {
+    transform: none;
+  }
+  .az-zoom-hint { display: none; }
+}
+
+html.az-lightbox-open,
+html.az-lightbox-open body {
+  overflow: hidden;
+}
+.az-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: stretch;
+  background: rgba(21, 21, 18, .94);
+  color: var(--linen);
+  padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+  touch-action: none;
+}
+.az-lightbox[hidden] { display: none !important; }
+.az-lightbox-close,
+.az-lightbox-nav {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  padding: 12px;
+  margin: 0;
+}
+.az-lightbox-close {
+  position: absolute;
+  top: max(10px, env(safe-area-inset-top, 0px));
+  right: max(8px, env(safe-area-inset-right, 0px));
+  z-index: 3;
+  width: 48px;
+  height: 48px;
+}
+.az-lightbox-close svg,
+.az-lightbox-nav svg {
+  width: 22px;
+  height: 22px;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  fill: none;
+  stroke-linecap: round;
+}
+.az-lightbox-nav {
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 64px;
+  display: grid;
+  place-items: center;
+}
+.az-lightbox-prev { left: max(4px, env(safe-area-inset-left, 0px)); }
+.az-lightbox-next { right: max(4px, env(safe-area-inset-right, 0px)); }
+.az-lightbox-stage {
+  grid-row: 1 / -1;
+  display: grid;
+  place-items: center;
+  min-height: 0;
+  overflow: hidden;
+  cursor: zoom-in;
+  touch-action: none;
+}
+.az-lightbox.is-zoomed .az-lightbox-stage { cursor: grab; }
+.az-lightbox-img {
+  max-width: min(96vw, 1400px);
+  max-height: min(86vh, 100%);
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  transform-origin: center center;
+  transition: transform .18s ease-out;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.az-lightbox.is-zoomed .az-lightbox-img { transition: none; }
+.az-lightbox-hint,
+.az-lightbox-counter {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  margin: 0;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 11px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: rgba(216, 208, 191, .72);
+  pointer-events: none;
+}
+.az-lightbox-hint {
+  bottom: max(18px, calc(12px + env(safe-area-inset-bottom, 0px)));
+}
+.az-lightbox-counter {
+  top: max(18px, calc(14px + env(safe-area-inset-top, 0px)));
+}
+.az-lightbox.is-zoomed .az-lightbox-hint { opacity: 0; }
+@media (min-width: 900px) {
+  .az-lightbox-hint {
+    font-size: 10px;
+  }
+  .az-lightbox-hint::before {
+    content: "Колёсико или двойной клик · ";
+  }
+}
+@media (max-width: 720px) {
+  .az-lightbox-nav { display: none; }
+  .az-lightbox-img {
+    max-width: 100vw;
+    max-height: 78vh;
+  }
 }

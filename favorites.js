@@ -66,6 +66,14 @@
       if (!slug) return false;
       return Favorites.has(slug) ? Favorites.remove(slug) : Favorites.add(slug);
     },
+    /** Replace entire list (e.g. prune missing catalog items). */
+    replace(list) {
+      const next = Array.isArray(list)
+        ? list.filter((x, i, arr) => typeof x === "string" && x && arr.indexOf(x) === i)
+        : [];
+      write(next);
+      return next;
+    },
     /** Quiet icon for catalog meta row */
     buttonHtml(slug) {
       const on = Favorites.has(slug);
@@ -82,8 +90,8 @@
     syncButtons(root = document) {
       root.querySelectorAll("[data-fav-slug]").forEach(syncButton);
     },
-    bind() {
-      Favorites.syncButtons(document);
+    bind(root = document) {
+      Favorites.syncButtons(root || document);
       Favorites.updateHeader();
     },
     updateHeader() {

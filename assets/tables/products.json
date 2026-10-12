@@ -575,5 +575,142 @@
     ],
     "galleryFit": "contain",
     "page": 66
+  },
+  {
+    "id": 23,
+    "slug": "tb-rete",
+    "title": "Rete",
+    "short": "Круглый кофейный столик с графичным синим орнаментом, светлым деревом и кожаными ремнями на ножках.",
+    "material": "Дерево / кожа / металл",
+    "models": [
+      "P52"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-rete/hero.jpg?v=tb5254a",
+    "gallery": [
+      "assets/tables/collections/tb-rete/item-01-zoom.jpg?v=tb5254a"
+    ],
+    "galleryFit": "contain",
+    "page": 52
+  },
+  {
+    "id": 24,
+    "slug": "tb-prisma",
+    "title": "Prisma",
+    "short": "Кофейный столик с пёстрой геометрической столешницей, бирюзовым ободом и тремя деревянными ножками на кожаных стяжках.",
+    "material": "Дерево / кожа / металл",
+    "models": [
+      "P53"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-prisma/hero.jpg?v=tb5254d",
+    "gallery": [
+      "assets/tables/collections/tb-prisma/item-01-zoom.jpg?v=tb5254d"
+    ],
+    "galleryFit": "contain",
+    "page": 53
+  },
+  {
+    "id": 25,
+    "slug": "tb-nastro",
+    "title": "Nastro",
+    "short": "Компактный столик с синим орнаментом, серым ободом и декоративными кожаными ремнями со швами.",
+    "material": "Дерево / кожа / металл",
+    "models": [
+      "P54"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-nastro/hero.jpg?v=tb5254a",
+    "gallery": [
+      "assets/tables/collections/tb-nastro/item-01-zoom.jpg?v=tb5254a"
+    ],
+    "galleryFit": "contain",
+    "page": 54
+  },
+  {
+    "id": 26,
+    "slug": "tb-reticolo",
+    "title": "Reticolo",
+    "short": "Круглый стол со стеклянной столешницей и ажурной опорой из тёмного дерева и синего металла.",
+    "material": "Стекло / дерево / металл",
+    "models": [
+      "P75"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-reticolo/hero.jpg?v=tb7577c1",
+    "gallery": [
+      "assets/tables/collections/tb-reticolo/item-01-zoom.jpg?v=tb7577c1",
+      "assets/tables/collections/tb-reticolo/item-02-zoom.jpg?v=tb7577c1"
+    ],
+    "galleryFit": "contain",
+    "page": 75
+  },
+  {
+    "id": 27,
+    "slug": "tb-iris",
+    "title": "Iris",
+    "short": "Низкий круглый кофейный стол с синим солнечным орнаментом и крестообразной опорой из вертикальных пластин.",
+    "material": "Дерево / лак",
+    "models": [
+      "P76"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-iris/hero.jpg?v=tb7577h",
+    "gallery": [
+      "assets/tables/collections/tb-iris/item-01-zoom.jpg?v=tb7577h"
+    ],
+    "galleryFit": "contain",
+    "page": 76
+  },
+  {
+    "id": 28,
+    "slug": "tb-onda",
+    "title": "Onda",
+    "short": "Кофейный стол с рифлёным стеклом и скульптурной красно-оранжевой опорой из перекрестных пластин.",
+    "material": "Стекло / металл",
+    "models": [
+      "P77"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-onda/hero.jpg?v=tb7577x",
+    "gallery": [
+      "assets/tables/collections/tb-onda/item-01-zoom.jpg?v=tb7577x"
+    ],
+    "galleryFit": "contain",
+    "page": 77
+  },
+  {
+    "id": 29,
+    "slug": "tb-piega",
+    "title": "Piega",
+    "short": "Овальный стол со стеклянной столешницей и скульптурной складчатой опорой в персиково-синей гамме.",
+    "material": "Стекло / композит",
+    "models": [
+      "P78"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-piega/hero.jpg?v=tb7879n",
+    "gallery": [
+      "assets/tables/collections/tb-piega/item-01-zoom.jpg?v=tb7879n"
+    ],
+    "galleryFit": "contain",
+    "page": 78
+  },
+  {
+    "id": 30,
+    "slug": "tb-plisse",
+    "title": "Plissé",
+    "short": "Круглый кофейный стол со стеклянной столешницей и волнистой опорой с контрастной внутренней поверхностью.",
+    "material": "Стекло / композит",
+    "models": [
+      "P79"
+    ],
+    "items": [],
+    "cover": "assets/tables/collections/tb-plisse/hero.jpg?v=tb7879n",
+    "gallery": [
+      "assets/tables/collections/tb-plisse/item-01-zoom.jpg?v=tb7879n"
+    ],
+    "galleryFit": "contain",
+    "page": 79
   }
 ]
