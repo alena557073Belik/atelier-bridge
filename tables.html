@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Prata&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=88">
-  <link rel="stylesheet" href="pages.css?v=zoom02">
+  <link rel="stylesheet" href="pages.css?v=zoom04">
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -50,7 +50,8 @@
 
   <section class="catalog-section outdoor-catalog tables-catalog">
     <div class="tables-collection-filter" role="tablist" aria-label="Коллекции столов">
-      <button type="button" class="tables-collection-btn is-active" role="tab" aria-selected="true" data-collection="classic">Классическая</button>
+      <button type="button" class="tables-collection-btn is-active" role="tab" aria-selected="true" data-collection="all">Все</button>
+      <button type="button" class="tables-collection-btn" role="tab" aria-selected="false" data-collection="classic">Классическая</button>
       <button type="button" class="tables-collection-btn" role="tab" aria-selected="false" data-collection="coffee">Кофейная</button>
     </div>
     <div class="catalog-grid" id="tables-grid"></div>
@@ -74,11 +75,13 @@
         }
 
         const params = new URLSearchParams(location.search);
-        let active = params.get("c") === "coffee" ? "coffee" : "classic";
+        const cParam = params.get("c");
+        let active = cParam === "coffee" || cParam === "classic" ? cParam : "all";
 
         function render(collection) {
           active = collection;
           const list = products.filter((p) => {
+            if (collection === "all") return true;
             const isCoffee = coffee.has(p.slug);
             return collection === "coffee" ? isCoffee : !isCoffee;
           });
@@ -88,7 +91,8 @@
             btn.setAttribute("aria-selected", on ? "true" : "false");
           });
           const url = new URL(location.href);
-          url.searchParams.set("c", collection);
+          if (collection === "all") url.searchParams.delete("c");
+          else url.searchParams.set("c", collection);
           history.replaceState(null, "", url);
 
           if (!list.length) {
